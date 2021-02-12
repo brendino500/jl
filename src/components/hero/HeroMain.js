@@ -1,8 +1,8 @@
-import React from 'react'
 import { makeStyles } from '@material-ui/core/styles'
 
-import heroText from '../../assets/hero-text.png'
 import CountdownTimer from './CountdownTimer'
+import ButtonsMain from './ButtonsMain'
+import heroText from '../../assets/hero-text.png'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -27,6 +27,7 @@ export default function HeroMain() {
         className={classes.tombRaiderImage}
       />
       <CountdownTimer />
+      <ButtonsMain />
     </div>
   )
 }
