@@ -1,11 +1,13 @@
 import Navbar from './navbar/Navbar'
-import HeroMain from './hero/HeroMain'
+import Hero from './hero/HeroMain'
+import Footer from './footer/FooterMain'
 
 export default function Main() {
   return (
     <>
       <Navbar />
-      <HeroMain />
+      <Hero />
+      <Footer />
     </>
   )
 }

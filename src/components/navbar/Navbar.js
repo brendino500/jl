@@ -41,7 +41,13 @@ export default function Navbar() {
 
   return (
     <div className={classes.root}>
-      <AppBar position="static" className={classes.navbar}>
+      <AppBar
+        position="fixed"
+        className={classes.navbar}
+        style={{
+          boxShadow: '0px 0px 0px 0px',
+        }}
+      >
         <Toolbar>
           <img src={logo} alt="logo" />
 
