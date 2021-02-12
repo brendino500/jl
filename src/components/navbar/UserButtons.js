@@ -14,7 +14,7 @@ export default function UserButtons({ text }) {
   return (
     <>
       <Button
-        disableRipple="true"
+        disableRipple={true}
         className={classes.buttonText}
         href="http://square-enix-games.com"
         target="_blank"

@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }))
 
-export default function TimerTeaserMiddleMain() {
+export default function MiddleContent() {
   const classes = useStyles()
   return (
     <div className={classes.container}>

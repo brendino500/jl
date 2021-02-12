@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="makeStyles-root-1"
+>
+  <header
+    className="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary makeStyles-navbar-2 MuiPaper-elevation4"
+  >
+    <div
+      className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
+    >
+      <img
+        alt="logo"
+        src="se-logo-white.png"
+      />
+      <div
+        className="makeStyles-buttonSection-5"
+      >
+        <img
+          alt="login background"
+          className="makeStyles-loginBackground-7"
+          src="user-login-background.png"
+        />
+        <div
+          className="makeStyles-userButtons-6"
+        >
+          <a
+            aria-disabled={false}
+            className="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-buttonText-8"
+            href="http://square-enix-games.com"
+            onBlur={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            rel="noreferrer"
+            tabIndex={0}
+            target="_blank"
+          >
+            <span
+              className="MuiButton-label"
+            >
+              Join
+            </span>
+          </a>
+          <a
+            aria-disabled={false}
+            className="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-buttonText-8"
+            href="http://square-enix-games.com"
+            onBlur={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            rel="noreferrer"
+            tabIndex={0}
+            target="_blank"
+          >
+            <span
+              className="MuiButton-label"
+            >
+              Login
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+</div>
+`;
