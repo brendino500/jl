@@ -6,19 +6,21 @@ const useStyles = makeStyles((theme) => ({
 }))
 
 const buttonText = [
-  'Cookie Policy',
-  'Terms of Use',
-  'Privacy Policy',
-  'Support',
-  'Material Usage',
+  { label: 'Cookie Policy', url: '' },
+  { label: 'Terms of Use', url: '' },
+  { label: 'Privacy Policy', url: '' },
+  { label: 'Support', url: '' },
+  { label: 'Material Usage', url: '' },
 ]
 
 export default function FooterButtons() {
   const classes = useStyles()
   return (
     <>
-      {buttonText.map((text, index) => (
-        <Button className={classes.button}>{text}</Button>
+      {buttonText.map((text) => (
+        <Button key={text.label} className={classes.button} href={text.url}>
+          {text.label}
+        </Button>
       ))}
     </>
   )
