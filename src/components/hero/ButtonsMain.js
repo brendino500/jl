@@ -1,13 +1,9 @@
-import { Typography, Button } from '@material-ui/core'
+import { Button } from '@material-ui/core'
 import { makeStyles } from '@material-ui/core/styles'
 
 import SocialIconsLayout from './SocialIconsLayout'
 
-const useStyles = makeStyles((theme) => ({
-  buttonLink: {
-    textDecoration: 'none',
-  },
-}))
+const useStyles = makeStyles((theme) => ({}))
 
 export default function ButtonsMain() {
   const classes = useStyles()
@@ -23,14 +19,15 @@ export default function ButtonsMain() {
   return (
     <>
       <Button>Add to Calendar</Button>
-      <a
+
+      <Button
         href="https://square-enix-games.com/"
         target="_blank"
         rel="noreferrer"
-        className={classes.buttonLink}
       >
-        <Button>Newsletter SignUp</Button>
-      </a>
+        Newsletter SignUp
+      </Button>
+
       <SocialIconsLayout />
     </>
   )
