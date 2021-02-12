@@ -1,6 +1,12 @@
 import React from 'react'
 import Navbar from './navbar/Navbar'
+import HeroMain from './hero/HeroMain'
 
 export default function Main() {
-  return <Navbar />
+  return (
+    <>
+      <Navbar />
+      <HeroMain />
+    </>
+  )
 }
