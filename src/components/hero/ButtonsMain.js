@@ -1,7 +1,7 @@
 import { Typography, Button } from '@material-ui/core'
 import { makeStyles } from '@material-ui/core/styles'
 
-import SocialIcons from './SocialIcons'
+import SocialIconsLayout from './SocialIconsLayout'
 
 const useStyles = makeStyles((theme) => ({
   buttonLink: {
@@ -33,7 +33,7 @@ export default function ButtonsMain() {
       >
         <Button>Newsletter SignUp</Button>
       </a>
-      <SocialIcons />
+      <SocialIconsLayout />
     </>
   )
 }
