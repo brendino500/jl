@@ -11,12 +11,12 @@ const useStyles = makeStyles((theme) => ({
   },
 }))
 
-export default function RemainingTimeLayout({ time, measureableLength }) {
+export default function RemainingTimeLayout({ time, type }) {
   const classes = useStyles()
   return (
     <div className={classes.timeTextLayout}>
       <Typography>{time || '00'}</Typography>
-      <Typography>{measureableLength}</Typography>
+      <Typography>{type}</Typography>
     </div>
   )
 }

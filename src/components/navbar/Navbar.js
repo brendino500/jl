@@ -1,6 +1,7 @@
 import { makeStyles } from '@material-ui/core/styles'
 import { AppBar, Toolbar, Button } from '@material-ui/core/'
 
+import UserButtons from './UserButtons'
 import logo from '../../assets/se-logo-white.png'
 import whiteBackground from '../../assets/user-login-background.png'
 
@@ -10,16 +11,17 @@ const useStyles = makeStyles((theme) => ({
     color: '#000000',
     margin: 0,
   },
+  navbar: {
+    backgroundColor: '#000000',
+    overflow: 'hidden',
+  },
   menuButton: {
     marginRight: theme.spacing(2),
   },
   title: {
     flexGrow: 1,
   },
-  navbar: {
-    backgroundColor: '#000000',
-    overflow: 'hidden',
-  },
+
   buttonSection: {
     position: 'absolute',
     right: 0,
@@ -28,11 +30,6 @@ const useStyles = makeStyles((theme) => ({
     position: 'absolute',
     top: '1.2em',
     right: '2em',
-  },
-  buttonText: {
-    color: 'black',
-    fontFamily: 'Sora',
-    marginLeft: '1em',
   },
   loginBackground: {
     width: '17em',
@@ -55,12 +52,8 @@ export default function Navbar() {
               className={classes.loginBackground}
             />
             <div className={classes.userButtons}>
-              <Button disableRipple="true" className={classes.buttonText}>
-                Join
-              </Button>
-              <Button disableRipple="true" className={classes.buttonText}>
-                Login
-              </Button>
+              <UserButtons text="Join" />
+              <UserButtons text="Login" />
             </div>
           </div>
         </Toolbar>

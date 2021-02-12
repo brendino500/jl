@@ -60,16 +60,10 @@ export default function CountdownTimer() {
   return (
     <div className={classes.container}>
       <div className={classes.timerLayoutMain}>
-        <RemainingTime time={timeRemaining.days} measureableLength={'Days'} />
-        <RemainingTime time={timeRemaining.hours} measureableLength={'Hours'} />
-        <RemainingTime
-          time={timeRemaining.minutes}
-          measureableLength={'Minutes'}
-        />
-        <RemainingTime
-          time={timeRemaining.seconds}
-          measureableLength={'Seconds'}
-        />
+        <RemainingTime time={timeRemaining.days} type={'Days'} />
+        <RemainingTime time={timeRemaining.hours} type={'Hours'} />
+        <RemainingTime time={timeRemaining.minutes} type={'Minutes'} />
+        <RemainingTime time={timeRemaining.seconds} type={'Seconds'} />
       </div>
       <img src={divider} alt="divider" className={classes.divider} />
     </div>
