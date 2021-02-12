@@ -7,12 +7,12 @@ const useStyles = makeStyles((theme) => ({
   },
 }))
 
-export default function SocialIconIndividual({ icon }) {
+export default function SocialIconIndividual({ icon, url }) {
   const classes = useStyles()
   return (
     <>
       <IconButton
-        href="https://square-enix-games.com/"
+        href={url}
         target="_blank"
         rel="noreferrer"
         className={classes.icon}

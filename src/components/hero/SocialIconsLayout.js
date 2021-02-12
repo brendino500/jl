@@ -9,18 +9,18 @@ import {
 import SocialIconIndividual from './SocialIconIndividual'
 
 const icons = [
-  <FaFacebookF />,
-  <FaTwitter />,
-  <FaGooglePlusG />,
-  <FaYoutube />,
-  <FaInstagramSquare />,
+  { icon: <FaFacebookF />, url: 'https://www.facebook.com/SquareEnix' },
+  { icon: <FaTwitter />, url: 'https://twitter.com/SquareEnix' },
+  { icon: <FaGooglePlusG />, url: 'https://square-enix-games.com/' },
+  { icon: <FaYoutube />, url: 'https://www.youtube.com/user/UKSquareEnix' },
+  { icon: <FaInstagramSquare />, url: 'https://www.instagram.com/squareenix/' },
 ]
 
 export default function SocialIconsLayout() {
   return (
     <div>
-      {icons.map((icon, index) => (
-        <SocialIconIndividual key={index} icon={icon} />
+      {icons.map((icon, index, url) => (
+        <SocialIconIndividual key={index} icon={icon.icon} url={icon.url} />
       ))}
     </div>
   )
