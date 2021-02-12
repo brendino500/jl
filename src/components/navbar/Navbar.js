@@ -6,11 +6,13 @@ import Typography from '@material-ui/core/Typography'
 import Button from '@material-ui/core/Button'
 
 import logo from '../../assets/se-logo-white.png'
+import whiteBackground from '../../assets/user-login-background.png'
 
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     color: '#000000',
+    margin: 0,
   },
   menuButton: {
     marginRight: theme.spacing(2),
@@ -20,11 +22,22 @@ const useStyles = makeStyles((theme) => ({
   },
   navbar: {
     backgroundColor: '#000000',
+    overflow: 'hidden',
   },
   buttonSection: {
-    backgroundColor: 'white',
     position: 'absolute',
     right: 0,
+  },
+  userButtons: {
+    position: 'absolute',
+    top: '1em',
+    right: '2em',
+  },
+  buttonText: {
+    color: 'black',
+  },
+  loginBackground: {
+    width: '20em',
   },
 }))
 export default function Navbar() {
@@ -37,8 +50,19 @@ export default function Navbar() {
           <img src={logo} alt="logo" />
 
           <div className={classes.buttonSection}>
-            <Button color="inherit">Join</Button>
-            <Button color="inherit">Login</Button>
+            <img
+              src={whiteBackground}
+              alt="login background"
+              className={classes.loginBackground}
+            />
+            <div className={classes.userButtons}>
+              <Button color="inherit" className={classes.buttonText}>
+                Join
+              </Button>
+              <Button color="inherit" className={classes.buttonText}>
+                Login
+              </Button>
+            </div>
           </div>
         </Toolbar>
       </AppBar>
