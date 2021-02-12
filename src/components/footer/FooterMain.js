@@ -2,6 +2,7 @@ import { makeStyles } from '@material-ui/core/styles'
 
 import SmallPrint from './SmallPrint'
 import Logos from './Logos'
+import FooterButtons from './FooterButtons'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -17,6 +18,7 @@ export default function Footer() {
     <div className={classes.root}>
       <Logos />
       <SmallPrint />
+      <FooterButtons />
     </div>
   )
 }

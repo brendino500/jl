@@ -5,6 +5,7 @@ import ps4 from '../../assets/ps4-logo.png'
 import steam from '../../assets/steam-logo.png'
 import pcsoftware from '../../assets/pc-software-logo.png'
 import rating from '../../assets/age-rating-logo.png'
+import selogo from '../../assets/se-logo-black.png'
 
 const useStyles = makeStyles((theme) => ({
   logoContainer: {
@@ -14,6 +15,10 @@ const useStyles = makeStyles((theme) => ({
     height: '3em',
     marginLeft: '2em',
   },
+  seLogo: {
+    height: '2em',
+    width: 'auto',
+  },
 }))
 
 export default function Logos() {
@@ -22,9 +27,14 @@ export default function Logos() {
 
   return (
     <div className={classes.logoContainer}>
-      {logos.map((logo, index) => (
-        <img key={index} src={logo} alt="logo" className={classes.logos} />
-      ))}
+      <div>
+        {logos.map((logo, index) => (
+          <img key={index} src={logo} alt="logo" className={classes.logos} />
+        ))}
+      </div>
+      <div>
+        <img src={selogo} alt="se logo" className={classes.seLogo} />
+      </div>
     </div>
   )
 }
