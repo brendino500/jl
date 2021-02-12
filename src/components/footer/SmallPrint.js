@@ -3,8 +3,9 @@ import { makeStyles } from '@material-ui/core/styles'
 
 const useStyles = makeStyles((theme) => ({
   smallPrintContainer: {
-    width: '80vw',
-    display: 'inline',
+    padding: 4,
+    textAlign: 'justify',
+    display: 'flex',
   },
   font: {
     fontFamily: 'Noto Sans KR',
