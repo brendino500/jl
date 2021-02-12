@@ -1,5 +1,5 @@
 import { makeStyles } from '@material-ui/core/styles'
-import { AppBar, Toolbar, Button } from '@material-ui/core/'
+import { AppBar, Toolbar } from '@material-ui/core/'
 
 import UserButtons from './UserButtons'
 import logo from '../../assets/se-logo-white.png'
