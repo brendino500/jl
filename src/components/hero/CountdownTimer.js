@@ -1,7 +1,16 @@
 import React, { useState, useEffect } from 'react'
-import { Typography } from '@material-ui/core'
+import { makeStyles } from '@material-ui/core/styles'
+
+import RemainingTime from './RemainingTimeLayout'
+
+const useStyles = makeStyles((theme) => ({
+  timerLayoutMain: {
+    display: 'flex',
+  },
+}))
 
 export default function CountdownTimer() {
+  const classes = useStyles()
   //! Date is in format MM/DD/YYYY
   const finalDate = '02/13/2021'
   const [countdownDate, setCountdownDate] = useState(
@@ -40,10 +49,18 @@ export default function CountdownTimer() {
 
   return (
     <>
-      <Typography>
-        {timeRemaining.days || '00'}:{timeRemaining.hours || '00'}:
-        {timeRemaining.minutes || '00'}:{timeRemaining.seconds | '00'}
-      </Typography>
+      <div className={classes.timerLayoutMain}>
+        <RemainingTime time={timeRemaining.days} measureableLength={'Days'} />
+        <RemainingTime time={timeRemaining.hours} measureableLength={'Hours'} />
+        <RemainingTime
+          time={timeRemaining.minutes}
+          measureableLength={'Minutes'}
+        />
+        <RemainingTime
+          time={timeRemaining.seconds}
+          measureableLength={'Seconds'}
+        />
+      </div>
     </>
   )
 }

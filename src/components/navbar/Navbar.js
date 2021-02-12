@@ -56,10 +56,10 @@ export default function Navbar() {
               className={classes.loginBackground}
             />
             <div className={classes.userButtons}>
-              <Button color="inherit" className={classes.buttonText}>
+              <Button disableRipple="true" className={classes.buttonText}>
                 Join
               </Button>
-              <Button color="inherit" className={classes.buttonText}>
+              <Button disableRipple="true" className={classes.buttonText}>
                 Login
               </Button>
             </div>
