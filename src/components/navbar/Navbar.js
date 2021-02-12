@@ -30,14 +30,17 @@ const useStyles = makeStyles((theme) => ({
   },
   userButtons: {
     position: 'absolute',
-    top: '1em',
+    top: '1.2em',
     right: '2em',
   },
   buttonText: {
     color: 'black',
+    fontFamily: 'Sora',
+    marginLeft: '1em',
   },
   loginBackground: {
-    width: '20em',
+    width: '17em',
+    height: '4.5em',
   },
 }))
 export default function Navbar() {
