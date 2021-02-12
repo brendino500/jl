@@ -1,6 +1,6 @@
 import { makeStyles } from '@material-ui/core/styles'
 
-import CountdownTimer from './CountdownTimer'
+import TimerSectionWithTeaserButton from './TimerTeaserMiddleMain'
 import ButtonsMain from './ButtonsMain'
 import heroText from '../../assets/hero-text.png'
 
@@ -26,7 +26,8 @@ export default function HeroMain() {
         alt="Tomb Raider text"
         className={classes.tombRaiderImage}
       />
-      <CountdownTimer />
+      {/* <CountdownTimer /> */}
+      <TimerSectionWithTeaserButton />
       <ButtonsMain />
     </div>
   )

@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react'
 import { makeStyles } from '@material-ui/core/styles'
 
 import RemainingTime from './RemainingTimeLayout'
-import divider from '../../assets/divider.png'
 
 const useStyles = makeStyles((theme) => ({
   container: {
@@ -65,7 +64,6 @@ export default function CountdownTimer() {
         <RemainingTime time={timeRemaining.minutes} type={'Minutes'} />
         <RemainingTime time={timeRemaining.seconds} type={'Seconds'} />
       </div>
-      <img src={divider} alt="divider" className={classes.divider} />
     </div>
   )
 }
