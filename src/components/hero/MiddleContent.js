@@ -1,10 +1,9 @@
-import { useState } from 'react'
 import { makeStyles } from '@material-ui/core/styles'
 import { Typography, Button } from '@material-ui/core'
 
 import CountdownTimer from './CountdownTimer'
 import divider from '../../assets/divider.png'
-import { dateString, dateToWords } from '../../config/dateChange'
+import { dateString } from '../../config/dateChange'
 
 const useStyles = makeStyles((theme) => ({
   container: {

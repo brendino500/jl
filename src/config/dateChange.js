@@ -1,10 +1,12 @@
 import moment from 'moment'
 
-//!!!!! ONLY CHANGE LINES 5 - 7 FOR THE RELEASE DATE OF THE PRODUCT
+//!!!!! ONLY CHANGE LINES 5 - 7 FOR THE RELEASE DATE OF THE PRODUCT AS NUMBERS
 
-export const day = 15
-export const month = 12
+export const day = 13
+export const month = 2
 export const year = 2021
+export const hour = 18
+export const minute = 0
 
 //!! NO MESSING AROUND THE REST OF THE CODE. I SEE YOU... 🙅‍♂️🙅‍♂️🙅‍♂️🙅‍♂️🙅‍♂️
 

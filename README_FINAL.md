@@ -46,7 +46,8 @@
 
 ## 🎈 Features
 
-- Date validation and window alert
+- Date validation and window alert.
+- Updated with the date rendered ib tge oage
 
 ## 🏔 Challenges
 

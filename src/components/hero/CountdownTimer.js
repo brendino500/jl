@@ -2,7 +2,14 @@ import { useState, useEffect } from 'react'
 import { makeStyles } from '@material-ui/core/styles'
 
 import RemainingTime from './RemainingTimeLayout'
-import { dateValidation, day, month, year } from '../../config/dateChange'
+import {
+  dateValidation,
+  day,
+  month,
+  year,
+  hour,
+  minute,
+} from '../../config/dateChange'
 
 const useStyles = makeStyles((theme) => ({
   container: {
@@ -23,13 +30,12 @@ export default function CountdownTimer() {
 
   dateValidation()
 
-  //! Date is in format MM/DD/YYYY
   const finalDate = `${month}/${day}/${year}`
 
-  const [releaseDate, setReleaseDate] = useState('')
   const [countdownDate, setCountdownDate] = useState(
-    new Date(finalDate).getTime()
+    new Date(year, month - 1, day, hour, minute).getTime()
   )
+
   const [timeRemaining, setTimeRemaining] = useState({
     days: '00',
     hours: '00',
@@ -38,9 +44,30 @@ export default function CountdownTimer() {
   })
 
   useEffect(() => {
+    const updateCountdown = () => {
+      const currentTime = new Date().getTime()
+      const distanceToDate = countdownDate - currentTime
+
+      let days = Math.floor(distanceToDate / (1000 * 60 * 60 * 24))
+      let hours = Math.floor(
+        (distanceToDate % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+      )
+      let minutes = Math.floor(
+        (distanceToDate % (1000 * 60 * 60)) / (1000 * 60)
+      )
+      let seconds = Math.floor((distanceToDate % (1000 * 60)) / 1000)
+
+      setTimeRemaining({
+        days: formatNumber(days),
+        hours: formatNumber(hours),
+        minutes: formatNumber(minutes),
+        seconds: formatNumber(seconds),
+      })
+    }
+
     const timer = setInterval(() => updateCountdown(), 1000)
     return () => clearInterval(timer)
-  }, [])
+  }, [countdownDate])
 
   const formatNumber = (number) => {
     if (number < 10) {
@@ -50,24 +77,24 @@ export default function CountdownTimer() {
     }
   }
 
-  const updateCountdown = () => {
-    const currentTime = new Date().getTime()
-    const distanceToDate = countdownDate - currentTime
+  // const updateCountdown = () => {
+  //   const currentTime = new Date().getTime()
+  //   const distanceToDate = countdownDate - currentTime
 
-    let days = Math.floor(distanceToDate / (1000 * 60 * 60 * 24))
-    let hours = Math.floor(
-      (distanceToDate % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
-    )
-    let minutes = Math.floor((distanceToDate % (1000 * 60 * 60)) / (1000 * 60))
-    let seconds = Math.floor((distanceToDate % (1000 * 60)) / 1000)
+  //   let days = Math.floor(distanceToDate / (1000 * 60 * 60 * 24))
+  //   let hours = Math.floor(
+  //     (distanceToDate % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+  //   )
+  //   let minutes = Math.floor((distanceToDate % (1000 * 60 * 60)) / (1000 * 60))
+  //   let seconds = Math.floor((distanceToDate % (1000 * 60)) / 1000)
 
-    setTimeRemaining({
-      days: formatNumber(days),
-      hours: formatNumber(hours),
-      minutes: formatNumber(minutes),
-      seconds: formatNumber(seconds),
-    })
-  }
+  //   setTimeRemaining({
+  //     days: formatNumber(days),
+  //     hours: formatNumber(hours),
+  //     minutes: formatNumber(minutes),
+  //     seconds: formatNumber(seconds),
+  //   })
+  // }
 
   return (
     <div className={classes.container}>
