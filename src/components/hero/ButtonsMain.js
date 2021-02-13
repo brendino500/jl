@@ -2,6 +2,7 @@ import { Button } from '@material-ui/core'
 import { makeStyles } from '@material-ui/core/styles'
 
 import SocialIconsLayout from './SocialIconsLayout'
+import { UTC, UTCFinish } from '../../config/dateChange'
 
 const useStyles = makeStyles((theme) => ({}))
 
@@ -36,12 +37,10 @@ export default function ButtonsMain() {
             location: 'UK',
             description: 'Tomb Raider is available to buy, go go go!',
             start: {
-              dateTime: '2021-02-16T09:00:00-07:00',
-              timeZone: 'Europe/UK',
+              dateTime: UTC,
             },
             end: {
-              dateTime: '2021-02-16T17:00:00-07:00',
-              timeZone: 'Europe/UK',
+              dateTime: UTCFinish,
             },
             reminders: {
               useDefault: false,
