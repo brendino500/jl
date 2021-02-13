@@ -4,7 +4,7 @@ import moment from 'moment'
 //* NOTE HOUR IS IN 24HRS
 
 export const releaseDate = {
-  day: 13,
+  day: 15,
   month: 2,
   year: 2021,
   hour: 19,

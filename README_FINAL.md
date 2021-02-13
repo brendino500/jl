@@ -35,7 +35,7 @@
 
 - I also made a Trello board so I could plan the whole project. **I split the project up into smaller tasks and divided them up to different days** depending on what needed to be done first.
 - I wanted to be really strict with this - **logic first and styling after**!
-  ![Trello](https://i.ibb.co/0tg1wgw/se-trello2.png)
+  ![Trello](https://i.ibb.co/vq0DwGK/seTrello.png)
 
 ### Day 2
 
@@ -43,6 +43,11 @@
 - Trying to be true to the mockup, I always had it open and in view so to not deviate away from it.
 - I started from the top down to implement the most basic component it could be. By the end of the day all the information on the page was rendered in the correct layout.
 - I also implemented the logic for the countdown timer as well as linking up all the buttons to external links.
+
+### Day 3
+
+![WIP2](https://i.ibb.co/4KZwMqS/WIP2.png)
+WIP End of day 3
 
 ## 🎈 Features
 
