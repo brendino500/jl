@@ -1,8 +1,10 @@
+import { useState } from 'react'
 import { makeStyles } from '@material-ui/core/styles'
 import { Typography, Button } from '@material-ui/core'
 
 import CountdownTimer from './CountdownTimer'
 import divider from '../../assets/divider.png'
+import { dateString, dateToWords } from '../../config/dateChange'
 
 const useStyles = makeStyles((theme) => ({
   container: {
@@ -20,11 +22,12 @@ const useStyles = makeStyles((theme) => ({
 
 export default function MiddleContent() {
   const classes = useStyles()
+
   return (
     <div className={classes.container}>
       <CountdownTimer />
       <img src={divider} alt="divider" className={classes.divider} />
-      <Typography>Reveal Event April 27th</Typography>
+      <Typography>Reveal Event {dateString}</Typography>
       <Button
         href="https://square-enix-games.com/"
         target="_blank"

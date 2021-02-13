@@ -8,6 +8,7 @@ export const year = 2021
 
 //!! NO MESSING AROUND THE REST OF THE CODE. I SEE YOU... 🙅‍♂️🙅‍♂️🙅‍♂️🙅‍♂️🙅‍♂️
 
+export let dateString = ''
 const date = moment(`${year.toString()}-${month.toString()}-${day.toString()}`)
 
 export const dateValidation = () => {
@@ -19,7 +20,7 @@ export const dateValidation = () => {
   }
 }
 
-export const dateToWords = () => {
-  let dateAsString = moment(date).format('Do MMMM YYYY')
-  console.log(dateAsString)
+const dateToWords = () => {
+  dateString = moment(date).format('Do MMMM')
 }
+dateToWords()
