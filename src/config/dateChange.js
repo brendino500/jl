@@ -1,26 +1,32 @@
 import moment from 'moment'
 
-//!!!!! ONLY CHANGE LINES 5 - 9 FOR THE RELEASE DATE OF THE PRODUCT AS NUMBERS.
+//!!!!! ONLY CHANGE LINES 7 - 11 FOR THE RELEASE DATE OF THE PRODUCT AS NUMBERS.
 //* NOTE HOUR IS IN 24HRS
 
-export const day = 15
-export const month = 6
-export const year = 2021
-export const hour = 21
-export const minute = 0
+export const releaseDate = {
+  day: 15,
+  month: 6,
+  year: 2021,
+  hour: 21,
+  minute: 0,
+}
 
 //!! NO MESSING AROUND THE REST OF THE CODE. I SEE YOU... 🙅‍♂️🙅‍♂️🙅‍♂️🙅‍♂️🙅‍♂️
 
-export let dateString = ''
-export let UTC = ''
-const date = moment(`${year.toString()}-${month.toString()}-${day.toString()}`)
-const sortDateAndTime = moment(
-  `${year.toString()}-${month.toString()}-${day.toString()} ${hour}:${minute}`
+const date = moment(
+  `${releaseDate.year.toString()}-${releaseDate.month.toString()}-${releaseDate.day.toString()}`
 )
+export const dateString = moment(date).format('Do MMMM')
+const shortDateAndTime = moment(
+  `${releaseDate.year.toString()}-${releaseDate.month.toString()}-${releaseDate.day.toString()} ${
+    releaseDate.hour
+  }:${releaseDate.minute}`
+)
+export let UTC = moment(shortDateAndTime).format()
 export let UTCFinish = moment(
-  `${year.toString()}-${month.toString()}-${day.toString()} ${
-    hour + 1
-  }:${minute}`
+  `${releaseDate.year.toString()}-${releaseDate.month.toString()}-${releaseDate.day.toString()} ${
+    releaseDate.hour + 1
+  }:${releaseDate.minute}`
 ).format()
 
 export const dateValidation = () => {
@@ -32,13 +38,17 @@ export const dateValidation = () => {
   }
 }
 
-const dateToWords = () => {
-  dateString = moment(date).format('Do MMMM')
-}
-dateToWords()
+export const countdownDate = new Date(
+  releaseDate.year,
+  releaseDate.month - 1,
+  releaseDate.day,
+  releaseDate.hour,
+  releaseDate.minute
+).getTime()
 
-const formatToUTC = () => {
-  UTC = moment(sortDateAndTime).format()
-  console.log(UTC)
+export const hasDateHappened = () => {
+  const currentTime = new Date().getTime()
+  return countdownDate - currentTime <= 0
 }
-formatToUTC()
+
+console.log(hasDateHappened())
