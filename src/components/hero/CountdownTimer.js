@@ -37,6 +37,10 @@ export default function CountdownTimer() {
     const currentTime = new Date().getTime()
     const distanceToDate = countdownDate - currentTime
 
+    if (distanceToDate <= 0) {
+      window.location.reload()
+    }
+
     let days = Math.floor(distanceToDate / (1000 * 60 * 60 * 24))
     let hours = Math.floor(
       (distanceToDate % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
@@ -54,9 +58,9 @@ export default function CountdownTimer() {
 
   const formatNumber = (number) => {
     if (number < 10) {
-      return `0${number}`
+      return `0${Math.max(number, 0)}`
     } else {
-      return `${number}`
+      return `${Math.max(number, 0)}`
     }
   }
 
