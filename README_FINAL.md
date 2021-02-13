@@ -46,6 +46,8 @@
 
 ## 🎈 Features
 
+- Date validation and window alert
+
 ## 🏔 Challenges
 
 ## 🥡 Take Aways
@@ -54,3 +56,5 @@
 
 [Google Calendar API](https://developers.google.com/calendar)
 [Google Event API](https://developers.google.com/calendar/v3/reference/events)
+[Moment.js](https://momentjs.com/)
+[Material UI](https://material-ui.com/)

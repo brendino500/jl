@@ -2,7 +2,13 @@ import { useState, useEffect } from 'react'
 import { makeStyles } from '@material-ui/core/styles'
 
 import RemainingTime from './RemainingTimeLayout'
-import { dateValidation } from '../../config/dateChange'
+import {
+  dateValidation,
+  day,
+  month,
+  year,
+  dateToWords,
+} from '../../config/dateChange'
 
 const useStyles = makeStyles((theme) => ({
   container: {
@@ -22,11 +28,12 @@ export default function CountdownTimer() {
   const classes = useStyles()
 
   dateValidation()
+  dateToWords()
 
   //! Date is in format MM/DD/YYYY
-  const finalDate = '02/16/2021'
+  const releaseDate = `${month}/${day}/${year}`
   const [countdownDate, setCountdownDate] = useState(
-    new Date(finalDate).getTime()
+    new Date(releaseDate).getTime()
   )
   const [timeRemaining, setTimeRemaining] = useState({
     days: '00',

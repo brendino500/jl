@@ -1,20 +1,25 @@
 import moment from 'moment'
 
-//!!!!! ONLY CHANGE LINES 5 - 7
+//!!!!! ONLY CHANGE LINES 5 - 7 FOR THE RELEASE DATE OF THE PRODUCT
 
-const day = 5
-const month = 3
-const year = 2021
+export const day = 15
+export const month = 12
+export const year = 2021
+
+//!! NO MESSING AROUND THE REST OF THE CODE. I SEE YOU... 🙅‍♂️🙅‍♂️🙅‍♂️🙅‍♂️🙅‍♂️
+
+const date = moment(`${year.toString()}-${month.toString()}-${day.toString()}`)
 
 export const dateValidation = () => {
-  const date = moment(
-    `${year.toString()}-${month.toString()}-${day.toString()}`
-  )
   const check = date.isValid()
   if (!check) {
     window.alert(
-      '!!WHOOPS!! You may have made a typo as THE DATE YOU PUT IN IS NOT VALID. GO TO src/config/dateChange.js AND UPDATE TO A VALID DATE 👍'
+      `!!WHOOPS!! You may have made a typo as THE DATE YOU PUT IN IS NOT VALID. GO TO src/config/dateChange.js AND UPDATE TO A VALID DATE 👍 YOU ALSO HAVE TO HARD REFRESH THIS PAGE ONCE COMPLETED`
     )
-    console.log('%c' + check, 'background: #ff000d; color: #bada55')
   }
+}
+
+export const dateToWords = () => {
+  let dateAsString = moment(date).format('Do MMMM YYYY')
+  console.log(dateAsString)
 }
