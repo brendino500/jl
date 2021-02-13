@@ -32,17 +32,16 @@ export default function ButtonsMain() {
         .signIn()
         .then(() => {
           const event = {
-            summary: 'Tomb Raider',
-            location: '800 Howard St., San Francisco, CA 94103',
-            description:
-              "A chance to hear more about Google's developer products.",
+            summary: 'Tomb Raider Release',
+            location: 'UK',
+            description: 'Tomb Raider is available to buy, go go go!',
             start: {
               dateTime: '2021-02-16T09:00:00-07:00',
-              timeZone: 'America/Los_Angeles',
+              timeZone: 'Europe/UK',
             },
             end: {
               dateTime: '2021-02-16T17:00:00-07:00',
-              timeZone: 'America/Los_Angeles',
+              timeZone: 'Europe/UK',
             },
             reminders: {
               useDefault: false,

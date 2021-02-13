@@ -50,4 +50,7 @@
 
 ## 🥡 Take Aways
 
-## 🤓 Notes
+## 🤓 Notes & Resources
+
+[Google Calendar API](https://developers.google.com/calendar)
+[Google Event API](https://developers.google.com/calendar/v3/reference/events)
