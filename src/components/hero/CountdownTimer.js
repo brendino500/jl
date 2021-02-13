@@ -21,7 +21,7 @@ export default function CountdownTimer() {
   const classes = useStyles()
 
   //! Date is in format MM/DD/YYYY
-  const finalDate = '02/15/2021'
+  const finalDate = '02/16/2021'
   const [countdownDate, setCountdownDate] = useState(
     new Date(finalDate).getTime()
   )

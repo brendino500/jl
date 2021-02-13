@@ -23,6 +23,7 @@ const useStyles = makeStyles((theme) => ({
 
 export default function Logos() {
   const classes = useStyles()
+  // make into array of objects to create individual classnames to style in scss
   const logos = [rating, xbox, ps4, steam, pcsoftware]
 
   return (

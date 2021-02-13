@@ -5,7 +5,7 @@
 ## ⚡️ Overview
 
 - You can clone my project and run: `npm i` followed by `npm start`.
-- Open [https://localhost:3000](https://localhost:3000) in the browser.
+- Open [https://localhost:3001](https://localhost:3001) in the browser.
   <br />
   <br />
 - The aim of this project was to **build a countdown timer** to an event which was happening in the future and **style a webpage to a wireframe provided**.
