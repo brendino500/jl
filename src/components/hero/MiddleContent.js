@@ -3,7 +3,7 @@ import { Typography, Button } from '@material-ui/core'
 
 import CountdownTimer from './CountdownTimer'
 import divider from '../../assets/divider.png'
-import { dateString } from '../../config/dateChange'
+import { dateString, dateValidation } from '../../config/dateChange'
 
 const useStyles = makeStyles((theme) => ({
   container: {
@@ -21,6 +21,7 @@ const useStyles = makeStyles((theme) => ({
 
 export default function MiddleContent() {
   const classes = useStyles()
+  dateValidation()
 
   return (
     <div className={classes.container}>

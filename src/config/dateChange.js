@@ -4,7 +4,7 @@ import moment from 'moment'
 //* NOTE HOUR IS IN 24HRS
 
 export const day = 15
-export const month = 2
+export const month = 6
 export const year = 2021
 export const hour = 21
 export const minute = 0
@@ -27,7 +27,7 @@ export const dateValidation = () => {
   const check = date.isValid()
   if (!check) {
     window.alert(
-      `!!WHOOPS!! You may have made a typo as THE DATE YOU PUT IN IS NOT VALID. GO TO src/config/dateChange.js AND UPDATE TO A VALID DATE 👍 YOU ALSO HAVE TO HARD REFRESH THIS PAGE ONCE COMPLETED`
+      `!!WHOOPS!! You may have made a typo as THE DATE YOU PUT IN IS NOT VALID. GO TO src/config/dateChange.js AND UPDATE TO A VALID DATE 👍`
     )
   }
 }
