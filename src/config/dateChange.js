@@ -1,7 +1,7 @@
 import moment from 'moment'
 
 //!!!!! ONLY CHANGE LINES 7 - 11 FOR THE RELEASE DATE OF THE PRODUCT AS NUMBERS.
-//* NOTE HOUR IS IN 24HRS
+//!!!!! NOTE: HOUR IS IN 24HOUR CLOCK
 
 export const releaseDate = {
   day: 15,
@@ -50,5 +50,3 @@ export const hasDateHappened = () => {
   const currentTime = new Date().getTime()
   return countdownDate - currentTime <= 0
 }
-
-console.log(hasDateHappened())
