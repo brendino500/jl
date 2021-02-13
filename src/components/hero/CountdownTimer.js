@@ -21,21 +21,29 @@ export default function CountdownTimer() {
   const classes = useStyles()
 
   //! Date is in format MM/DD/YYYY
-  const finalDate = '02/13/2021'
+  const finalDate = '02/15/2021'
   const [countdownDate, setCountdownDate] = useState(
     new Date(finalDate).getTime()
   )
   const [timeRemaining, setTimeRemaining] = useState({
-    days: 0,
-    hours: 0,
-    minutes: 0,
-    seconds: 0,
+    days: '00',
+    hours: '00',
+    minutes: '00',
+    seconds: '00',
   })
 
   useEffect(() => {
     const timer = setInterval(() => updateCountdown(), 1000)
     return () => clearInterval(timer)
   }, [])
+
+  const formatNumber = (number) => {
+    if (number < 10) {
+      return `0${number}`
+    } else {
+      return `${number}`
+    }
+  }
 
   const updateCountdown = () => {
     const currentTime = new Date().getTime()
@@ -49,10 +57,10 @@ export default function CountdownTimer() {
     let seconds = Math.floor((distanceToDate % (1000 * 60)) / 1000)
 
     setTimeRemaining({
-      days,
-      hours,
-      minutes,
-      seconds,
+      days: formatNumber(days),
+      hours: formatNumber(hours),
+      minutes: formatNumber(minutes),
+      seconds: formatNumber(seconds),
     })
   }
 
