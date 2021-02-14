@@ -5,6 +5,7 @@ import {
   FaYoutube,
   FaInstagramSquare,
 } from 'react-icons/fa'
+import { makeStyles } from '@material-ui/core/styles'
 
 import SocialIconIndividual from './SocialIconIndividual'
 
@@ -16,9 +17,20 @@ const icons = [
   { icon: <FaInstagramSquare />, url: 'https://www.instagram.com/squareenix/' },
 ]
 
+const useStyles = makeStyles((theme) => ({
+  iconGrid: {
+    // display: 'flex',
+    // justifyContent: 'space between',
+    // position: 'relative',
+    // width: '15vw',
+    // marginTop: '17vh',
+  },
+}))
+
 export default function SocialIconsLayout() {
+  const classes = useStyles()
   return (
-    <div>
+    <div className={classes.iconGrid}>
       {icons.map((icon, index, url) => (
         <SocialIconIndividual key={index} icon={icon.icon} url={icon.url} />
       ))}

@@ -1,10 +1,26 @@
 import { Button } from '@material-ui/core'
 import { makeStyles } from '@material-ui/core/styles'
 
+import addToCalendarButton from '../../assets/add-to-calendar-button.png'
+import newsLetterButton from '../../assets/newsletter-button.png'
 import SocialIconsLayout from './SocialIconsLayout'
 import { UTC, UTCFinish } from '../../config/dateChange'
 
-const useStyles = makeStyles((theme) => ({}))
+const useStyles = makeStyles((theme) => ({
+  buttonSection: {
+    position: 'absolute',
+    display: 'flex',
+    flexDirection: 'column',
+    marginTop: '10vh',
+    bottom: 10,
+  },
+  button: {
+    width: '15vw',
+  },
+  socialIconGrid: {
+    justifyContent: 'space between',
+  },
+}))
 
 export default function ButtonsMain() {
   const classes = useStyles()
@@ -63,18 +79,29 @@ export default function ButtonsMain() {
   }
 
   return (
-    <>
-      <Button onClick={handleAddToCalendar}>Add to Calendar</Button>
+    <div className={classes.buttonSection}>
+      <Button onClick={handleAddToCalendar}>
+        <img
+          src={addToCalendarButton}
+          alt="add to calendar"
+          className={classes.button}
+        />
+      </Button>
 
       <Button
         href="https://square-enix-games.com/"
         target="_blank"
         rel="noreferrer"
       >
-        Newsletter SignUp
+        <img
+          src={newsLetterButton}
+          alt="newsletter sign up"
+          className={classes.button}
+        />
       </Button>
-
-      <SocialIconsLayout />
-    </>
+      <div className={classes.socialIconGrid}>
+        <SocialIconsLayout />
+      </div>
+    </div>
   )
 }

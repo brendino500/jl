@@ -3,7 +3,8 @@ import { IconButton } from '@material-ui/core'
 
 const useStyles = makeStyles((theme) => ({
   icon: {
-    color: 'black',
+    color: '#EBE9EA',
+    fontSize: '3vh',
   },
 }))
 

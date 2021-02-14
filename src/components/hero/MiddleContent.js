@@ -26,7 +26,6 @@ const useStyles = makeStyles((theme) => ({
     marginTop: '2vh',
   },
   teaserButton: {
-    height: '',
     width: '15vw',
   },
 }))
