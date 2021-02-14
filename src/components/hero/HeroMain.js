@@ -12,7 +12,7 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
-    height: '80vh',
+    height: '100vh',
   },
   tombRaiderImage: {
     height: '8em',

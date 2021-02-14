@@ -35,6 +35,9 @@ const useStyles = makeStyles((theme) => ({
     width: '17em',
     height: '4.5em',
   },
+  seLogo: {
+    height: '3vh',
+  },
 }))
 export default function Navbar() {
   const classes = useStyles()
@@ -49,7 +52,7 @@ export default function Navbar() {
         }}
       >
         <Toolbar>
-          <img src={logo} alt="logo" />
+          <img src={logo} alt="logo" className={classes.seLogo} />
 
           <div className={classes.buttonSection}>
             <img
