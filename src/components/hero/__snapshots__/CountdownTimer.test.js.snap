@@ -8,59 +8,74 @@ exports[`renders when timer is counting numbers decrement over time to the final
     className="makeStyles-timerLayoutMain-2"
   >
     <div
-      className="makeStyles-timeTextLayout-4"
+      className="makeStyles-timeTextLayout-5"
     >
       <p
-        className="MuiTypography-root MuiTypography-body1"
+        className="MuiTypography-root makeStyles-timeNumbers-6 MuiTypography-body1"
       >
         00
       </p>
       <p
-        className="MuiTypography-root MuiTypography-body1"
+        className="MuiTypography-root makeStyles-timeText-7 MuiTypography-body1"
       >
         Days
       </p>
     </div>
+    <p
+      className="MuiTypography-root makeStyles-colon-4 MuiTypography-body1"
+    >
+      :
+    </p>
     <div
-      className="makeStyles-timeTextLayout-4"
+      className="makeStyles-timeTextLayout-5"
     >
       <p
-        className="MuiTypography-root MuiTypography-body1"
+        className="MuiTypography-root makeStyles-timeNumbers-6 MuiTypography-body1"
       >
         00
       </p>
       <p
-        className="MuiTypography-root MuiTypography-body1"
+        className="MuiTypography-root makeStyles-timeText-7 MuiTypography-body1"
       >
         Hours
       </p>
     </div>
+    <p
+      className="MuiTypography-root makeStyles-colon-4 MuiTypography-body1"
+    >
+      :
+    </p>
     <div
-      className="makeStyles-timeTextLayout-4"
+      className="makeStyles-timeTextLayout-5"
     >
       <p
-        className="MuiTypography-root MuiTypography-body1"
+        className="MuiTypography-root makeStyles-timeNumbers-6 MuiTypography-body1"
       >
         00
       </p>
       <p
-        className="MuiTypography-root MuiTypography-body1"
+        className="MuiTypography-root makeStyles-timeText-7 MuiTypography-body1"
       >
-        Minutes
+        Mins
       </p>
     </div>
+    <p
+      className="MuiTypography-root makeStyles-colon-4 MuiTypography-body1"
+    >
+      :
+    </p>
     <div
-      className="makeStyles-timeTextLayout-4"
+      className="makeStyles-timeTextLayout-5"
     >
       <p
-        className="MuiTypography-root MuiTypography-body1"
+        className="MuiTypography-root makeStyles-timeNumbers-6 MuiTypography-body1"
       >
         00
       </p>
       <p
-        className="MuiTypography-root MuiTypography-body1"
+        className="MuiTypography-root makeStyles-timeText-7 MuiTypography-body1"
       >
-        Seconds
+        Secs
       </p>
     </div>
   </div>
@@ -75,59 +90,74 @@ exports[`renders when timer is counting renders correctly 1`] = `
     className="makeStyles-timerLayoutMain-2"
   >
     <div
-      className="makeStyles-timeTextLayout-4"
+      className="makeStyles-timeTextLayout-5"
     >
       <p
-        className="MuiTypography-root MuiTypography-body1"
+        className="MuiTypography-root makeStyles-timeNumbers-6 MuiTypography-body1"
       >
         00
       </p>
       <p
-        className="MuiTypography-root MuiTypography-body1"
+        className="MuiTypography-root makeStyles-timeText-7 MuiTypography-body1"
       >
         Days
       </p>
     </div>
+    <p
+      className="MuiTypography-root makeStyles-colon-4 MuiTypography-body1"
+    >
+      :
+    </p>
     <div
-      className="makeStyles-timeTextLayout-4"
+      className="makeStyles-timeTextLayout-5"
     >
       <p
-        className="MuiTypography-root MuiTypography-body1"
+        className="MuiTypography-root makeStyles-timeNumbers-6 MuiTypography-body1"
       >
         00
       </p>
       <p
-        className="MuiTypography-root MuiTypography-body1"
+        className="MuiTypography-root makeStyles-timeText-7 MuiTypography-body1"
       >
         Hours
       </p>
     </div>
+    <p
+      className="MuiTypography-root makeStyles-colon-4 MuiTypography-body1"
+    >
+      :
+    </p>
     <div
-      className="makeStyles-timeTextLayout-4"
+      className="makeStyles-timeTextLayout-5"
     >
       <p
-        className="MuiTypography-root MuiTypography-body1"
+        className="MuiTypography-root makeStyles-timeNumbers-6 MuiTypography-body1"
       >
         00
       </p>
       <p
-        className="MuiTypography-root MuiTypography-body1"
+        className="MuiTypography-root makeStyles-timeText-7 MuiTypography-body1"
       >
-        Minutes
+        Mins
       </p>
     </div>
+    <p
+      className="MuiTypography-root makeStyles-colon-4 MuiTypography-body1"
+    >
+      :
+    </p>
     <div
-      className="makeStyles-timeTextLayout-4"
+      className="makeStyles-timeTextLayout-5"
     >
       <p
-        className="MuiTypography-root MuiTypography-body1"
+        className="MuiTypography-root makeStyles-timeNumbers-6 MuiTypography-body1"
       >
         00
       </p>
       <p
-        className="MuiTypography-root MuiTypography-body1"
+        className="MuiTypography-root makeStyles-timeText-7 MuiTypography-body1"
       >
-        Seconds
+        Secs
       </p>
     </div>
   </div>

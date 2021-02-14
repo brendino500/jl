@@ -10,13 +10,15 @@ const useStyles = makeStyles((theme) => ({
     margin: '1em',
   },
   timeNumbers: {
-    fontFamiy: 'Noto Sans KT',
-    fontSize: '7em',
+    fontFamiy: 'Sora',
+    fontSize: '6em',
+    color: '#ffffff',
   },
   timeText: {
     fontFamiy: 'Sora',
     textTransform: 'uppercase',
     letterSpacing: '0.5vw',
+    color: '#ffffff',
   },
 }))
 

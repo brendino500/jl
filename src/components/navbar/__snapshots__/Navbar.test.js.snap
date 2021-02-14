@@ -5,13 +5,19 @@ exports[`navbar snapshot test renders correctly 1`] = `
   className="makeStyles-root-1"
 >
   <header
-    className="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary makeStyles-navbar-2 MuiPaper-elevation4"
+    className="MuiPaper-root MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary makeStyles-navbar-2 mui-fixed MuiPaper-elevation4"
+    style={
+      Object {
+        "boxShadow": "0px 0px 0px 0px",
+      }
+    }
   >
     <div
       className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
     >
       <img
         alt="logo"
+        className="makeStyles-seLogo-8"
         src="se-logo-white.png"
       />
       <div
@@ -27,7 +33,7 @@ exports[`navbar snapshot test renders correctly 1`] = `
         >
           <a
             aria-disabled={false}
-            className="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-buttonText-8"
+            className="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-buttonText-9"
             href="http://square-enix-games.com"
             onBlur={[Function]}
             onDragLeave={[Function]}
@@ -52,7 +58,7 @@ exports[`navbar snapshot test renders correctly 1`] = `
           </a>
           <a
             aria-disabled={false}
-            className="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-buttonText-8"
+            className="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-buttonText-9"
             href="http://square-enix-games.com"
             onBlur={[Function]}
             onDragLeave={[Function]}

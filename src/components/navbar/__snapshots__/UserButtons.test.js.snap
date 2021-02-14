@@ -1,57 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Renders 1`] = `
-<a
-  aria-disabled={false}
-  className="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-buttonText-1"
-  href="http://square-enix-games.com"
-  onBlur={[Function]}
-  onDragLeave={[Function]}
-  onFocus={[Function]}
-  onKeyDown={[Function]}
-  onKeyUp={[Function]}
-  onMouseDown={[Function]}
-  onMouseLeave={[Function]}
-  onMouseUp={[Function]}
-  onTouchEnd={[Function]}
-  onTouchMove={[Function]}
-  onTouchStart={[Function]}
-  rel="noreferrer"
-  tabIndex={0}
-  target="_blank"
->
-  <span
-    className="MuiButton-label"
-  />
-</a>
-`;
-
-exports[`it renders correctly 1`] = `
-<a
-  aria-disabled={false}
-  className="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-buttonText-1"
-  href="http://square-enix-games.com"
-  onBlur={[Function]}
-  onDragLeave={[Function]}
-  onFocus={[Function]}
-  onKeyDown={[Function]}
-  onKeyUp={[Function]}
-  onMouseDown={[Function]}
-  onMouseLeave={[Function]}
-  onMouseUp={[Function]}
-  onTouchEnd={[Function]}
-  onTouchMove={[Function]}
-  onTouchStart={[Function]}
-  rel="noreferrer"
-  tabIndex={0}
-  target="_blank"
->
-  <span
-    className="MuiButton-label"
-  />
-</a>
-`;
-
 exports[`renders correctly 1`] = `
 <a
   aria-disabled={false}

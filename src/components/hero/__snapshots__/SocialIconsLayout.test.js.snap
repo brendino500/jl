@@ -1,11 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`social media icons layout snapshot test renders correctly 1`] = `
-<div>
+<div
+  className="makeStyles-iconGrid-1"
+>
   <a
     aria-disabled={false}
-    className="MuiButtonBase-root MuiIconButton-root makeStyles-icon-1"
-    href="https://square-enix-games.com/"
+    className="MuiButtonBase-root MuiIconButton-root makeStyles-icon-2"
+    href="https://www.facebook.com/SquareEnix"
     onBlur={[Function]}
     onDragLeave={[Function]}
     onFocus={[Function]}
@@ -46,8 +48,8 @@ exports[`social media icons layout snapshot test renders correctly 1`] = `
   </a>
   <a
     aria-disabled={false}
-    className="MuiButtonBase-root MuiIconButton-root makeStyles-icon-1"
-    href="https://square-enix-games.com/"
+    className="MuiButtonBase-root MuiIconButton-root makeStyles-icon-2"
+    href="https://twitter.com/SquareEnix"
     onBlur={[Function]}
     onDragLeave={[Function]}
     onFocus={[Function]}
@@ -88,7 +90,7 @@ exports[`social media icons layout snapshot test renders correctly 1`] = `
   </a>
   <a
     aria-disabled={false}
-    className="MuiButtonBase-root MuiIconButton-root makeStyles-icon-1"
+    className="MuiButtonBase-root MuiIconButton-root makeStyles-icon-2"
     href="https://square-enix-games.com/"
     onBlur={[Function]}
     onDragLeave={[Function]}
@@ -130,8 +132,8 @@ exports[`social media icons layout snapshot test renders correctly 1`] = `
   </a>
   <a
     aria-disabled={false}
-    className="MuiButtonBase-root MuiIconButton-root makeStyles-icon-1"
-    href="https://square-enix-games.com/"
+    className="MuiButtonBase-root MuiIconButton-root makeStyles-icon-2"
+    href="https://www.youtube.com/user/UKSquareEnix"
     onBlur={[Function]}
     onDragLeave={[Function]}
     onFocus={[Function]}
@@ -172,8 +174,8 @@ exports[`social media icons layout snapshot test renders correctly 1`] = `
   </a>
   <a
     aria-disabled={false}
-    className="MuiButtonBase-root MuiIconButton-root makeStyles-icon-1"
-    href="https://square-enix-games.com/"
+    className="MuiButtonBase-root MuiIconButton-root makeStyles-icon-2"
+    href="https://www.instagram.com/squareenix/"
     onBlur={[Function]}
     onDragLeave={[Function]}
     onFocus={[Function]}

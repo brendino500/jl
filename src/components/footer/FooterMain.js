@@ -6,8 +6,8 @@ import FooterButtons from './FooterButtons'
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    height: '58vh',
-    backgroundColor: '#3eab8c',
+    height: '56vh',
+    backgroundColor: '#ffffff',
     margin: '-0.5em',
   },
 }))

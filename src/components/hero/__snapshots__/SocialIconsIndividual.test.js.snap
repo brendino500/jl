@@ -1,10 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`social media icons individual snapshot test renders correctly 1`] = `
-<a
-  aria-disabled={false}
+<button
   className="MuiButtonBase-root MuiIconButton-root makeStyles-icon-1"
-  href="https://square-enix-games.com/"
+  disabled={false}
   onBlur={[Function]}
   onDragLeave={[Function]}
   onFocus={[Function]}
@@ -19,9 +18,10 @@ exports[`social media icons individual snapshot test renders correctly 1`] = `
   rel="noreferrer"
   tabIndex={0}
   target="_blank"
+  type="button"
 >
   <span
     className="MuiIconButton-label"
   />
-</a>
+</button>
 `;

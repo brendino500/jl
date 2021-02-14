@@ -25,6 +25,7 @@ const useStyles = makeStyles((theme) => ({
     textTransform: 'uppercase',
     letterSpacing: '0.5vw',
     marginTop: '2vh',
+    fontFamily: 'Sora',
   },
   teaserButton: {
     width: '15vw',

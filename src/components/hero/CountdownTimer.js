@@ -21,6 +21,8 @@ const useStyles = makeStyles((theme) => ({
   colon: {
     fontSize: '5em',
     marginTop: '5vh',
+    fontFamily: 'Sora',
+    color: '#ffffff',
   },
 }))
 
