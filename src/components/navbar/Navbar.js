@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
   navbar: {
     backgroundColor: '#000000',
     overflow: 'hidden',
-    height: '8vh',
+    height: '7vh',
   },
   menuButton: {
     marginRight: theme.spacing(2),
@@ -29,7 +29,7 @@ const useStyles = makeStyles((theme) => ({
   },
   userButtons: {
     position: 'absolute',
-    top: '0.7em',
+    top: '0.5em',
     right: '1em',
   },
   loginBackground: {

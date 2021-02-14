@@ -125,10 +125,10 @@ export default function Main() {
         <div className={classes.box9}></div>
         <div className={classes.box10}></div>
         <div className={classes.box11}></div>
-        <div className={classes.box12}></div>
+        {/* <div className={classes.box12}></div>
         <div className={classes.box13}></div>
         <div className={classes.box14}></div>
-        <div className={classes.box15}></div>
+        <div className={classes.box15}></div> */}
       </div>
       <Navbar />
       <Hero />
