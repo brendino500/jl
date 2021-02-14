@@ -25,6 +25,8 @@ const useStyles = makeStyles((theme) => ({
   seLogo: {
     height: '2em',
     width: 'auto',
+    marginTop: '2em',
+    marginBottom: '1em',
   },
   seLogoContainer: {
     display: 'flex',
