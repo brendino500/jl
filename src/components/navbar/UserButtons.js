@@ -6,6 +6,7 @@ const useStyles = makeStyles((theme) => ({
     color: 'black',
     fontFamily: 'Sora',
     marginLeft: '1em',
+    fontSize: '0.8em',
   },
 }))
 
