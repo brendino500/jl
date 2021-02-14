@@ -11,7 +11,7 @@ const useStyles = makeStyles((theme) => ({
   },
   timeNumbers: {
     fontFamiy: 'Noto Sans KT',
-    fontSize: '14vh',
+    fontSize: '7em',
   },
   timeText: {
     fontFamiy: 'Sora',

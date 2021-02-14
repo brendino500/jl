@@ -11,6 +11,7 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
+    maxWidth: '35vw',
   },
   timerLayoutMain: {
     display: 'flex',

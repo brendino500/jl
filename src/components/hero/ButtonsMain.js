@@ -11,8 +11,8 @@ const useStyles = makeStyles((theme) => ({
     position: 'absolute',
     display: 'flex',
     flexDirection: 'column',
-    marginTop: '10vh',
-    bottom: 10,
+    marginTop: '1vh',
+    bottom: -150,
   },
   button: {
     width: '15vw',

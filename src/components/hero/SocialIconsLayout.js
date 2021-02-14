@@ -18,13 +18,7 @@ const icons = [
 ]
 
 const useStyles = makeStyles((theme) => ({
-  iconGrid: {
-    // display: 'flex',
-    // justifyContent: 'space between',
-    // position: 'relative',
-    // width: '15vw',
-    // marginTop: '17vh',
-  },
+  iconGrid: {},
 }))
 
 export default function SocialIconsLayout() {
