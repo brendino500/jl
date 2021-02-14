@@ -113,8 +113,8 @@ export default function Main() {
   const classes = useStyles()
   return (
     <>
-      <div className={classes.root}>
-        {/* <div className={classes.box1}></div>
+      {/* <div className={classes.root}>
+        <div className={classes.box1}></div>
         <div className={classes.box2}></div>
         <div className={classes.box3}></div>
         <div className={classes.box4}></div>
@@ -124,12 +124,12 @@ export default function Main() {
         <div className={classes.box8}></div>
         <div className={classes.box9}></div>
         <div className={classes.box10}></div>
-        <div className={classes.box11}></div> */}
-        {/* <div className={classes.box12}></div>
+        <div className={classes.box11}></div>
+        <div className={classes.box12}></div>
         <div className={classes.box13}></div>
         <div className={classes.box14}></div>
-        <div className={classes.box15}></div> */}
-      </div>
+        <div className={classes.box15}></div>
+      </div> */}
       <Navbar />
       <Hero />
       <Footer />
