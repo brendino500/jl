@@ -4,6 +4,7 @@
 
 - You can clone my project and run: `npm install` followed by `npm start`.
 - Open [https://localhost:3001](https://localhost:3001) in the browser.
+- **‼️ TO CHANGE THE DATE GO TO `src/config/dateChange.js` AND ADD THE END DATE THERE ‼️**
   <br />
   <br />
 - The aim of this project was to **build a countdown timer** to an event which was happening in the future and **style a webpage to a wireframe provided**.
@@ -44,6 +45,7 @@
 - Started a few snapshot tests but stopped as the the more I read on it, the more I realised that I was using it not to it's full capabilities. I stopped as I wanted to **concentrate on the functional MVP**.
 - I also **implemented the logic for the countdown timer** as well as linking up all the buttons to external links.
   ![WIP](https://i.ibb.co/Xz5th5H/WIP1.png)
+  WIP End of day 2
 
 ### Day 3
 
@@ -58,6 +60,17 @@
   WIP End of day 3
 
 ### Day 4
+
+- The mockup was given with rulers and I interpret this that the **layout had to be accurate** to that.
+  - I worked out the ratios from the mockup and **added colourful divs as a background to achieve a visual guide to help me align the layout**.
+    <br />
+    <br />
+    <img src="https://i.ibb.co/4ZYc2Dg/ratio-wireframes.png" alt="wireframe ratios" height="500px" />
+  - Being this stict with the layout took much longer than expected which meant that I had to push a few tasks to the next day.
+    <br />
+    <br />
+    ![WIP3](https://i.ibb.co/WKf5pRp/WIP3.png)
+    WIP End of day 4
 
 ## 🎈 Features
 
