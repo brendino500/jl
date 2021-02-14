@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders when timer is counting numbers decrement over time to the final date 1`] = `
+<div
+  className="makeStyles-container-1"
+>
+  <div
+    className="makeStyles-timerLayoutMain-2"
+  >
+    <div
+      className="makeStyles-timeTextLayout-4"
+    >
+      <p
+        className="MuiTypography-root MuiTypography-body1"
+      >
+        00
+      </p>
+      <p
+        className="MuiTypography-root MuiTypography-body1"
+      >
+        Days
+      </p>
+    </div>
+    <div
+      className="makeStyles-timeTextLayout-4"
+    >
+      <p
+        className="MuiTypography-root MuiTypography-body1"
+      >
+        00
+      </p>
+      <p
+        className="MuiTypography-root MuiTypography-body1"
+      >
+        Hours
+      </p>
+    </div>
+    <div
+      className="makeStyles-timeTextLayout-4"
+    >
+      <p
+        className="MuiTypography-root MuiTypography-body1"
+      >
+        00
+      </p>
+      <p
+        className="MuiTypography-root MuiTypography-body1"
+      >
+        Minutes
+      </p>
+    </div>
+    <div
+      className="makeStyles-timeTextLayout-4"
+    >
+      <p
+        className="MuiTypography-root MuiTypography-body1"
+      >
+        00
+      </p>
+      <p
+        className="MuiTypography-root MuiTypography-body1"
+      >
+        Seconds
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders when timer is counting renders correctly 1`] = `
+<div
+  className="makeStyles-container-1"
+>
+  <div
+    className="makeStyles-timerLayoutMain-2"
+  >
+    <div
+      className="makeStyles-timeTextLayout-4"
+    >
+      <p
+        className="MuiTypography-root MuiTypography-body1"
+      >
+        00
+      </p>
+      <p
+        className="MuiTypography-root MuiTypography-body1"
+      >
+        Days
+      </p>
+    </div>
+    <div
+      className="makeStyles-timeTextLayout-4"
+    >
+      <p
+        className="MuiTypography-root MuiTypography-body1"
+      >
+        00
+      </p>
+      <p
+        className="MuiTypography-root MuiTypography-body1"
+      >
+        Hours
+      </p>
+    </div>
+    <div
+      className="makeStyles-timeTextLayout-4"
+    >
+      <p
+        className="MuiTypography-root MuiTypography-body1"
+      >
+        00
+      </p>
+      <p
+        className="MuiTypography-root MuiTypography-body1"
+      >
+        Minutes
+      </p>
+    </div>
+    <div
+      className="makeStyles-timeTextLayout-4"
+    >
+      <p
+        className="MuiTypography-root MuiTypography-body1"
+      >
+        00
+      </p>
+      <p
+        className="MuiTypography-root MuiTypography-body1"
+      >
+        Seconds
+      </p>
+    </div>
+  </div>
+</div>
+`;

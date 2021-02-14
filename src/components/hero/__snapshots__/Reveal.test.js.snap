@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reveal component renders when timer finishes renders correctly 1`] = `
+<div>
+  <h1>
+    Grand Reveal
+  </h1>
+</div>
+`;
