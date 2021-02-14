@@ -1,8 +1,13 @@
-import { Button } from '@material-ui/core'
+import { Button, Typography } from '@material-ui/core'
 import { makeStyles } from '@material-ui/core/styles'
 
 const useStyles = makeStyles((theme) => ({
-  button: {},
+  root: {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: '1em',
+  },
 }))
 
 const buttonText = [
@@ -16,12 +21,21 @@ const buttonText = [
 export default function FooterButtons() {
   const classes = useStyles()
   return (
-    <>
-      {buttonText.map((text) => (
-        <Button key={text.label} className={classes.button} href={text.url}>
-          {text.label}
-        </Button>
+    <div className={classes.root}>
+      {buttonText.map((text, index) => (
+        <>
+          <div>
+            <Button key={text.label} className={classes.button} href={text.url}>
+              {text.label}
+            </Button>
+          </div>
+          <div>
+            <Typography key={index} className="footer-bulletpoint">
+              •
+            </Typography>
+          </div>
+        </>
       ))}
-    </>
+    </div>
   )
 }

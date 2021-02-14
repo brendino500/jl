@@ -6,9 +6,14 @@
 .ps4-logo,
 .pcsoftware-logo {
   height: 3em;
-  margin-left: 3em;
+  margin-left: 2em;
 }
 
 .steam-logo {
   height: 2.6em;
+  margin-left: 2em;
+}
+
+div:nth-child(10) > p {
+  display: none;
 }
