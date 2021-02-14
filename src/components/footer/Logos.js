@@ -10,7 +10,7 @@ import selogo from '../../assets/se-logo-black.png'
 const useStyles = makeStyles((theme) => ({
   logoContainer: {
     display: 'flex',
-    // marginTop: '10%',
+    flexDirection: 'column',
   },
   logoGrid: {
     marginTop: '3%',
@@ -25,6 +25,10 @@ const useStyles = makeStyles((theme) => ({
   seLogo: {
     height: '2em',
     width: 'auto',
+  },
+  seLogoContainer: {
+    display: 'flex',
+    justifyContent: 'center',
   },
 }))
 
@@ -50,7 +54,7 @@ export default function Logos() {
           />
         ))}
       </div>
-      <div>
+      <div className={classes.seLogoContainer}>
         <img src={selogo} alt="se logo" className={classes.seLogo} />
       </div>
     </div>
