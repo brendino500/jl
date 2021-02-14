@@ -2,13 +2,14 @@ import { useState, useEffect } from 'react'
 import { makeStyles } from '@material-ui/core/styles'
 
 import RemainingTime from './RemainingTimeLayout'
-import { releaseDate, countdownDate } from '../../config/dateChange'
+import { countdownDate } from '../../config/dateChange'
 
 const useStyles = makeStyles((theme) => ({
   container: {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
+    marginTop: '6vh',
   },
   timerLayoutMain: {
     display: 'flex',
@@ -69,8 +70,8 @@ export default function CountdownTimer() {
       <div className={classes.timerLayoutMain}>
         <RemainingTime time={timeRemaining.days} type={'Days'} />
         <RemainingTime time={timeRemaining.hours} type={'Hours'} />
-        <RemainingTime time={timeRemaining.minutes} type={'Minutes'} />
-        <RemainingTime time={timeRemaining.seconds} type={'Seconds'} />
+        <RemainingTime time={timeRemaining.minutes} type={'Mins'} />
+        <RemainingTime time={timeRemaining.seconds} type={'Secs'} />
       </div>
     </div>
   )

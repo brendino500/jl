@@ -15,8 +15,9 @@ const useStyles = makeStyles((theme) => ({
     height: '100vh',
   },
   tombRaiderImage: {
-    height: '8em',
+    height: '17vh',
     width: 'auto',
+    marginTop: '-10vh',
   },
 }))
 
@@ -29,9 +30,12 @@ export default function HeroMain() {
         alt="Tomb Raider text"
         className={classes.tombRaiderImage}
       />
-      {hasDateHappened() ? <Reveal /> : <MiddleContent />}
-      {/* <MiddleContent /> */}
-      <ButtonsMain />
+      {hasDateHappened() ? (
+        <Reveal className={classes.middleSection} />
+      ) : (
+        <MiddleContent className={classes.middleSection} />
+      )}
+      <ButtonsMain className={classes.buttonSection} />
     </div>
   )
 }

@@ -3,6 +3,7 @@ import { Typography, Button } from '@material-ui/core'
 
 import CountdownTimer from './CountdownTimer'
 import divider from '../../assets/divider.png'
+import teaserButton from '../../assets/watch-teaser-button.png'
 import { dateString, dateValidation } from '../../config/dateChange'
 
 const useStyles = makeStyles((theme) => ({
@@ -15,7 +16,18 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
   },
   divider: {
-    width: 'auto',
+    width: '37vw',
+  },
+  revealText: {
+    color: '#C44027',
+    fontWeight: 'bold',
+    textTransform: 'uppercase',
+    letterSpacing: '0.5vw',
+    marginTop: '2vh',
+  },
+  teaserButton: {
+    height: '',
+    width: '15vw',
   },
 }))
 
@@ -27,13 +39,20 @@ export default function MiddleContent() {
     <div className={classes.container}>
       <CountdownTimer />
       <img src={divider} alt="divider" className={classes.divider} />
-      <Typography>Reveal Event {dateString}</Typography>
+      <Typography className={classes.revealText}>
+        Reveal Event {dateString}
+      </Typography>
+
       <Button
         href="https://square-enix-games.com/"
         target="_blank"
         rel="noreferrer"
       >
-        Watch Teaser
+        <img
+          src={teaserButton}
+          alt="watch teaser button"
+          className={classes.teaserButton}
+        />
       </Button>
     </div>
   )

@@ -9,14 +9,23 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: 'center',
     margin: '1em',
   },
+  timeNumbers: {
+    fontFamiy: 'Noto Sans KT',
+    fontSize: '14vh',
+  },
+  timeText: {
+    fontFamiy: 'Sora',
+    textTransform: 'uppercase',
+    letterSpacing: '0.5vw',
+  },
 }))
 
 export default function RemainingTimeLayout({ time, type }) {
   const classes = useStyles()
   return (
     <div className={classes.timeTextLayout}>
-      <Typography>{time || '00'}</Typography>
-      <Typography>{type}</Typography>
+      <Typography className={classes.timeNumbers}>{time || '00'}</Typography>
+      <Typography className={classes.timeText}>{type}</Typography>
     </div>
   )
 }
