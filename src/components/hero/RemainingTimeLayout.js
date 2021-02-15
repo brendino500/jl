@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
     fontSize: '6em',
     color: '#ffffff',
     [theme.breakpoints.between('xs', 'sm')]: {
-      fontSize: '3em',
+      fontSize: '2em',
     },
     [theme.breakpoints.between('sm', 'md')]: {
       fontSize: '4em',

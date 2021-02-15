@@ -24,7 +24,7 @@ const useStyles = makeStyles((theme) => ({
     top: '7vh',
     [theme.breakpoints.between('xs', 'sm')]: {
       marginTop: 50,
-      width: 400,
+      width: 350,
       height: 'auto',
     },
     [theme.breakpoints.between('sm', 'md')]: {

@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
   },
   button: {
     [theme.breakpoints.between('xs', 'sm')]: {
-      fontSize: 9,
+      fontSize: 7,
     },
     [theme.breakpoints.between('sm', 'md')]: {
       fontSize: 12,

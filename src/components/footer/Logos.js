@@ -17,6 +17,9 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
+    [theme.breakpoints.between('xs', 'sm')]: {
+      flexWrap: 'wrap',
+    },
   },
   logos: {
     height: '3em',

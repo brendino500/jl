@@ -37,6 +37,9 @@ const useStyles = makeStyles((theme) => ({
     letterSpacing: '0.5vw',
     marginTop: '2vh',
     fontFamily: 'Sora',
+    [theme.breakpoints.between('xs', 'sm')]: {
+      fontSize: 15,
+    },
   },
   teaserButton: {
     width: 210,

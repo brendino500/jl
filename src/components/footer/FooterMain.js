@@ -10,7 +10,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: '#ffffff',
     margin: '-0.5em',
     [theme.breakpoints.between('xs', 'sm')]: {
-      height: 300,
+      height: 390,
     },
     [theme.breakpoints.between('sm', 'md')]: {
       height: 300,

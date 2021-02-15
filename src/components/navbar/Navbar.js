@@ -29,11 +29,18 @@ const useStyles = makeStyles((theme) => ({
   loginBackground: {
     width: 250,
     height: '3.8em',
+    [theme.breakpoints.between('xs', 'sm')]: {
+      width: 100,
+      height: 50,
+    },
   },
   seLogo: {
     height: 18,
     width: 'auto',
     margin: '-1.5em 0 0 1em',
+    [theme.breakpoints.between('xs', 'sm')]: {
+      height: 15,
+    },
   },
 }))
 export default function Navbar() {
