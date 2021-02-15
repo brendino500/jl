@@ -90,8 +90,8 @@ export default function CountdownTimer() {
   return (
     <div className={classes.container}>
       <div className={classes.timerLayoutMain}>
-        {timeRemaining.map((time) => (
-          <div className={classes.timerFormat}>
+        {timeRemaining.map((time, index) => (
+          <div className={classes.timerFormat} key={index}>
             <RemainingTime time={time.value} type={time.text} />
             <Typography className={classes.colon}>:</Typography>
           </div>

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`social media icons layout snapshot test renders correctly 1`] = `
+exports[`SocialIconsLayout matches snapshot 1`] = `
 <div
   className="makeStyles-iconGrid-1"
 >

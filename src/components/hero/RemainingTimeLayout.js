@@ -38,9 +38,6 @@ export default function RemainingTimeLayout({ time, type }) {
   const classes = useStyles()
   return (
     <div className={classes.timeTextLayout}>
-      {/* <Typography className={classes.timeNumbers}>{time || '00'}</Typography>
-
-      <Typography className={classes.timeText}>{type}</Typography> */}
       <Typography className={classes.timeNumbers}>{time || '00'}</Typography>
       <Typography className={classes.timeText}>{type}</Typography>
     </div>

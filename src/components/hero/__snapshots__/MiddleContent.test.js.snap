@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MiddleContent matches snapshot 1`] = `
+<div
+  className="makeStyles-container-1"
+>
+  <div
+    className="makeStyles-container-6"
+  >
+    <div
+      className="makeStyles-timerLayoutMain-8"
+    >
+      <div
+        className="makeStyles-timerFormat-7"
+      >
+        <div
+          className="makeStyles-timeTextLayout-11"
+        >
+          <p
+            className="MuiTypography-root makeStyles-timeNumbers-12 MuiTypography-body1"
+          >
+            00
+          </p>
+          <p
+            className="MuiTypography-root makeStyles-timeText-13 MuiTypography-body1"
+          >
+            days
+          </p>
+        </div>
+        <p
+          className="MuiTypography-root makeStyles-colon-10 MuiTypography-body1"
+        >
+          :
+        </p>
+      </div>
+      <div
+        className="makeStyles-timerFormat-7"
+      >
+        <div
+          className="makeStyles-timeTextLayout-11"
+        >
+          <p
+            className="MuiTypography-root makeStyles-timeNumbers-12 MuiTypography-body1"
+          >
+            00
+          </p>
+          <p
+            className="MuiTypography-root makeStyles-timeText-13 MuiTypography-body1"
+          >
+            hours
+          </p>
+        </div>
+        <p
+          className="MuiTypography-root makeStyles-colon-10 MuiTypography-body1"
+        >
+          :
+        </p>
+      </div>
+      <div
+        className="makeStyles-timerFormat-7"
+      >
+        <div
+          className="makeStyles-timeTextLayout-11"
+        >
+          <p
+            className="MuiTypography-root makeStyles-timeNumbers-12 MuiTypography-body1"
+          >
+            00
+          </p>
+          <p
+            className="MuiTypography-root makeStyles-timeText-13 MuiTypography-body1"
+          >
+            mins
+          </p>
+        </div>
+        <p
+          className="MuiTypography-root makeStyles-colon-10 MuiTypography-body1"
+        >
+          :
+        </p>
+      </div>
+      <div
+        className="makeStyles-timerFormat-7"
+      >
+        <div
+          className="makeStyles-timeTextLayout-11"
+        >
+          <p
+            className="MuiTypography-root makeStyles-timeNumbers-12 MuiTypography-body1"
+          >
+            00
+          </p>
+          <p
+            className="MuiTypography-root makeStyles-timeText-13 MuiTypography-body1"
+          >
+            secs
+          </p>
+        </div>
+        <p
+          className="MuiTypography-root makeStyles-colon-10 MuiTypography-body1"
+        >
+          :
+        </p>
+      </div>
+    </div>
+  </div>
+  <img
+    alt="divider"
+    className="makeStyles-divider-3"
+    src="divider.png"
+  />
+  <p
+    className="MuiTypography-root makeStyles-revealText-4 MuiTypography-body1"
+  >
+    Reveal Event 
+    15th February
+  </p>
+  <a
+    aria-disabled={false}
+    className="MuiButtonBase-root MuiButton-root MuiButton-text"
+    href="https://square-enix-games.com/"
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    rel="noreferrer"
+    tabIndex={0}
+    target="_blank"
+  >
+    <span
+      className="MuiButton-label"
+    >
+      <img
+        alt="watch teaser button"
+        className="makeStyles-teaserButton-5"
+        src="watch-teaser-button.png"
+      />
+    </span>
+  </a>
+</div>
+`;
