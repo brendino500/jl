@@ -1,0 +1,242 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FooterMain matches snapshot 1`] = `
+<div
+  className="makeStyles-root-1"
+>
+  <div
+    className="makeStyles-logoContainer-2"
+  >
+    <div
+      className="makeStyles-logoGrid-3"
+    >
+      <img
+        alt="logo"
+        className="rating-logo"
+        src="age-rating-logo.png"
+      />
+      <img
+        alt="logo"
+        className="xbox-logo"
+        src="xbox-logo.png"
+      />
+      <img
+        alt="logo"
+        className="ps4-logo"
+        src="ps4-logo.png"
+      />
+      <img
+        alt="logo"
+        className="steam-logo"
+        src="steam-logo.png"
+      />
+      <img
+        alt="logo"
+        className="pcsoftware-logo"
+        src="pc-software-logo.png"
+      />
+    </div>
+    <div
+      className="makeStyles-seLogoContainer-6"
+    >
+      <img
+        alt="se logo"
+        className="makeStyles-seLogo-5"
+        src="se-logo-black.png"
+      />
+    </div>
+  </div>
+  <div
+    className="makeStyles-root-7"
+  >
+    <div
+      className="makeStyles-smallPrintContainer-8"
+    >
+      <p
+        className="MuiTypography-root makeStyles-font-9 MuiTypography-body1"
+      >
+        Tomb Raider ©2018 Square Enix and the Square Enix logo are registered trademarks of Square Enix Holdings Co., Ldt. Lara Croft, Tomb Raider, Crystal Synamics, the Crystal Dynamic logo, Edios, and the Edios logo are trademarks of Square Enix Ltd. “PlayStation” and the “PS” Family logo are registered trademarks and “PS3”, “PS4” and the PlayStation Network logo are trademarks of Sony Computer Entertainment Inc. Microsoft, Kinect, Xbox, Xbox 360, Xbox LIVE, and the Xbox logos are trademarks of the Microsoft Group of companies and are used under license from Microsoft. This was a really fun challenge so thank you for that lol. The rating icon is a registered trademark of the Pan European Game Information. All other trademarks are the property of their respective owners. All rights reserved.
+      </p>
+    </div>
+  </div>
+  <div
+    className="makeStyles-root-10"
+  >
+    <div>
+      <div>
+        <button
+          className="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-button-11"
+          disabled={false}
+          href=""
+          onBlur={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiButton-label"
+          >
+            Cookie Policy
+          </span>
+        </button>
+      </div>
+      <div>
+        <p
+          className="MuiTypography-root footer-bulletpoint MuiTypography-body1"
+        >
+          •
+        </p>
+      </div>
+    </div>
+    <div>
+      <div>
+        <button
+          className="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-button-11"
+          disabled={false}
+          href=""
+          onBlur={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiButton-label"
+          >
+            Terms of Use
+          </span>
+        </button>
+      </div>
+      <div>
+        <p
+          className="MuiTypography-root footer-bulletpoint MuiTypography-body1"
+        >
+          •
+        </p>
+      </div>
+    </div>
+    <div>
+      <div>
+        <button
+          className="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-button-11"
+          disabled={false}
+          href=""
+          onBlur={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiButton-label"
+          >
+            Privacy Policy
+          </span>
+        </button>
+      </div>
+      <div>
+        <p
+          className="MuiTypography-root footer-bulletpoint MuiTypography-body1"
+        >
+          •
+        </p>
+      </div>
+    </div>
+    <div>
+      <div>
+        <button
+          className="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-button-11"
+          disabled={false}
+          href=""
+          onBlur={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiButton-label"
+          >
+            Support
+          </span>
+        </button>
+      </div>
+      <div>
+        <p
+          className="MuiTypography-root footer-bulletpoint MuiTypography-body1"
+        >
+          •
+        </p>
+      </div>
+    </div>
+    <div>
+      <div>
+        <button
+          className="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-button-11"
+          disabled={false}
+          href=""
+          onBlur={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiButton-label"
+          >
+            Material Usage
+          </span>
+        </button>
+      </div>
+      <div>
+        <p
+          className="MuiTypography-root footer-bulletpoint MuiTypography-body1"
+        >
+          •
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

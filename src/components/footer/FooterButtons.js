@@ -31,9 +31,9 @@ export default function FooterButtons() {
   return (
     <div className={classes.root}>
       {buttonText.map((text, index) => (
-        <>
+        <div key={text.label}>
           <div>
-            <Button key={text.label} className={classes.button} href={text.url}>
+            <Button className={classes.button} href={text.url}>
               {text.label}
             </Button>
           </div>
@@ -42,7 +42,7 @@ export default function FooterButtons() {
               •
             </Typography>
           </div>
-        </>
+        </div>
       ))}
     </div>
   )

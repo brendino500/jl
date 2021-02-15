@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Logos matches snapshot 1`] = `
+<div
+  className="makeStyles-logoContainer-1"
+>
+  <div
+    className="makeStyles-logoGrid-2"
+  >
+    <img
+      alt="logo"
+      className="rating-logo"
+      src="age-rating-logo.png"
+    />
+    <img
+      alt="logo"
+      className="xbox-logo"
+      src="xbox-logo.png"
+    />
+    <img
+      alt="logo"
+      className="ps4-logo"
+      src="ps4-logo.png"
+    />
+    <img
+      alt="logo"
+      className="steam-logo"
+      src="steam-logo.png"
+    />
+    <img
+      alt="logo"
+      className="pcsoftware-logo"
+      src="pc-software-logo.png"
+    />
+  </div>
+  <div
+    className="makeStyles-seLogoContainer-5"
+  >
+    <img
+      alt="se logo"
+      className="makeStyles-seLogo-4"
+      src="se-logo-black.png"
+    />
+  </div>
+</div>
+`;
