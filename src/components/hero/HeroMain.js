@@ -13,6 +13,9 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: 'center',
     alignItems: 'center',
     height: '125vh',
+    [theme.breakpoints.between('sm', 'md')]: {
+      height: '130vh',
+    },
   },
   tombRaiderImage: {
     position: 'absolute',

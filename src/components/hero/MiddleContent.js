@@ -11,8 +11,8 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
-    [theme.breakpoints.between('md', 'lg')]: {
-      // height: '10vh',
+    [theme.breakpoints.between('sm', 'md')]: {
+      marginTop: -50,
     },
   },
   timerLayoutMain: {
@@ -20,6 +20,9 @@ const useStyles = makeStyles((theme) => ({
   },
   divider: {
     width: 500,
+    [theme.breakpoints.between('sm', 'md')]: {
+      width: 400,
+    },
   },
   revealText: {
     color: '#C44027',
