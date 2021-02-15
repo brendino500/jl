@@ -18,7 +18,9 @@ const icons = [
 ]
 
 const useStyles = makeStyles((theme) => ({
-  iconGrid: {},
+  iconGrid: {
+    maxWidth: 210,
+  },
 }))
 
 export default function SocialIconsLayout() {
