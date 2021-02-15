@@ -74,10 +74,10 @@
 
 ### Day 5
 
-- Finished making the site responsive.
-- Snapshot testing
-- Reaveal page
--
+- **Day was spent mainly making the site responsive and fixing all the styling bugs**.
+- This included adding a burger menu to the nav bar.
+- **Implemented all the snapshot tests for each component.**
+- Created the reveal page when the timer hits 0.
 
 ## 🎈 Features
 
