@@ -15,6 +15,9 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: '#000000',
     overflow: 'hidden',
     height: '7vh',
+    // [theme.breakpoints.between('sm', 'md')]: {
+
+    // },
   },
   menuButton: {
     marginRight: theme.spacing(2),

@@ -18,6 +18,13 @@ const useStyles = makeStyles((theme) => ({
     position: 'absolute',
     height: '17vh',
     top: '7vh',
+    // [theme.breakpoints.between('xs', 'sm')]: {
+    //   marginTop: 10,
+    //   height: 10,
+    // },
+    [theme.breakpoints.between('md', 'lg')]: {
+      marginTop: 10,
+    },
   },
 }))
 

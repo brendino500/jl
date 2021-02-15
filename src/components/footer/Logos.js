@@ -31,6 +31,9 @@ const useStyles = makeStyles((theme) => ({
   seLogoContainer: {
     display: 'flex',
     justifyContent: 'center',
+    [theme.breakpoints.between('sm', 'md')]: {
+      maxWidth: 960,
+    },
   },
 }))
 

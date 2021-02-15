@@ -11,6 +11,9 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
+    [theme.breakpoints.between('md', 'lg')]: {
+      // height: '10vh',
+    },
   },
   timerLayoutMain: {
     display: 'flex',
