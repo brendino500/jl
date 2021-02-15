@@ -4,11 +4,11 @@ import moment from 'moment'
 //!!!!! NOTE: HOUR IS IN 24HOUR CLOCK
 
 export const releaseDate = {
-  day: 15,
+  day: 16,
   month: 2,
   year: 2021,
-  hour: 19,
-  minute: 32,
+  hour: 18,
+  minute: 8,
 }
 
 //!! NO MESSING AROUND THE REST OF THE CODE. I SEE YOU... 🙅‍♂️🙅‍♂️🙅‍♂️🙅‍♂️🙅‍♂️

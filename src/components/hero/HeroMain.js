@@ -8,6 +8,7 @@ import { hasDateHappened } from '../../config/dateChange'
 
 const useStyles = makeStyles((theme) => ({
   root: {
+    position: 'relative',
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',

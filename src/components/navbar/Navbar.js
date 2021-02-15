@@ -1,5 +1,5 @@
 import { makeStyles } from '@material-ui/core/styles'
-import { AppBar, Hidden, Toolbar } from '@material-ui/core/'
+import { AppBar, Toolbar } from '@material-ui/core/'
 import { BiMenu } from 'react-icons/bi'
 
 import UserButtons from './UserButtons'
@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
   navbar: {
     backgroundColor: '#000000',
     overflow: 'hidden',
-    height: '7vh',
+    height: 50,
   },
   buttonSection: {
     position: 'absolute',
@@ -27,14 +27,11 @@ const useStyles = makeStyles((theme) => ({
     right: '1em',
   },
   loginBackground: {
-    width: '14em',
+    width: 250,
     height: '3.8em',
-    // [theme.breakpoints.between('xs', 'sm')]: {
-    //   width: '2em',
-    // },
   },
   seLogo: {
-    height: '2.2vh',
+    height: 18,
     width: 'auto',
     margin: '-1.5em 0 0 1em',
   },

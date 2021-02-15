@@ -12,7 +12,7 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
     flexDirection: 'column',
     marginTop: '1vh',
-    bottom: -150,
+    bottom: 10,
   },
   button: {
     width: 210,

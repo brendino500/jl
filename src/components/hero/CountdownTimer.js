@@ -86,6 +86,13 @@ export default function CountdownTimer() {
       return `${Math.max(number, 0)}`
     }
   }
+
+  const getColon = (index) => {
+    if (index < timeRemaining.length - 1) {
+      return <Typography className={classes.colon}>:</Typography>
+    }
+  }
+
   console.log('timeremainingState', timeRemaining)
   return (
     <div className={classes.container}>
@@ -93,7 +100,7 @@ export default function CountdownTimer() {
         {timeRemaining.map((time, index) => (
           <div className={classes.timerFormat} key={index}>
             <RemainingTime time={time.value} type={time.text} />
-            <Typography className={classes.colon}>:</Typography>
+            {getColon(index)}
           </div>
         ))}
       </div>
