@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
     bottom: -150,
   },
   button: {
-    width: '15vw',
+    width: 210,
   },
   socialIconGrid: {
     justifyContent: 'space between',

@@ -11,13 +11,12 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
-    maxWidth: '35vw',
   },
   timerLayoutMain: {
     display: 'flex',
   },
   divider: {
-    width: '37vw',
+    width: 500,
   },
   revealText: {
     color: '#C44027',
@@ -28,7 +27,7 @@ const useStyles = makeStyles((theme) => ({
     fontFamily: 'Sora',
   },
   teaserButton: {
-    width: '15vw',
+    width: 210,
   },
 }))
 
