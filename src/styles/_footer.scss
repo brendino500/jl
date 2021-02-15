@@ -35,3 +35,21 @@ div:nth-child(10) > p {
     margin-left: 1em;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .rating-logo {
+    height: 50px;
+  }
+
+  .xbox-logo,
+  .ps4-logo,
+  .pcsoftware-logo {
+    height: 20px;
+    margin-left: 1em;
+  }
+
+  .steam-logo {
+    height: 30px;
+    margin-left: 1em;
+  }
+}

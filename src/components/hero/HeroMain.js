@@ -21,6 +21,11 @@ const useStyles = makeStyles((theme) => ({
     position: 'absolute',
     height: '17vh',
     top: '7vh',
+    [theme.breakpoints.between('xs', 'sm')]: {
+      marginTop: 50,
+      width: 400,
+      height: 'auto',
+    },
     [theme.breakpoints.between('sm', 'md')]: {
       marginTop: 10,
       width: 500,

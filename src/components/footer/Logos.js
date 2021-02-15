@@ -27,6 +27,9 @@ const useStyles = makeStyles((theme) => ({
     width: 'auto',
     marginTop: '2em',
     marginBottom: '1em',
+    [theme.breakpoints.between('xs', 'sm')]: {
+      height: 20,
+    },
   },
   seLogoContainer: {
     display: 'flex',

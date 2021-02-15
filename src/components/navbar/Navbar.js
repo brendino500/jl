@@ -1,5 +1,6 @@
 import { makeStyles } from '@material-ui/core/styles'
-import { AppBar, Toolbar } from '@material-ui/core/'
+import { AppBar, Hidden, Toolbar } from '@material-ui/core/'
+import { BiMenu } from 'react-icons/bi'
 
 import UserButtons from './UserButtons'
 import logo from '../../assets/se-logo-white.png'
@@ -16,13 +17,6 @@ const useStyles = makeStyles((theme) => ({
     overflow: 'hidden',
     height: '7vh',
   },
-  menuButton: {
-    marginRight: theme.spacing(2),
-  },
-  title: {
-    flexGrow: 1,
-  },
-
   buttonSection: {
     position: 'absolute',
     right: 0,
@@ -35,6 +29,9 @@ const useStyles = makeStyles((theme) => ({
   loginBackground: {
     width: '14em',
     height: '3.8em',
+    // [theme.breakpoints.between('xs', 'sm')]: {
+    //   width: '2em',
+    // },
   },
   seLogo: {
     height: '2.2vh',
@@ -66,6 +63,7 @@ export default function Navbar() {
             <div className={classes.userButtons}>
               <UserButtons text="Join" />
               <UserButtons text="Login" />
+              <BiMenu />
             </div>
           </div>
         </Toolbar>

@@ -9,6 +9,9 @@ const useStyles = makeStyles((theme) => ({
     marginTop: '1em',
   },
   button: {
+    [theme.breakpoints.between('xs', 'sm')]: {
+      fontSize: 9,
+    },
     [theme.breakpoints.between('sm', 'md')]: {
       fontSize: 12,
     },

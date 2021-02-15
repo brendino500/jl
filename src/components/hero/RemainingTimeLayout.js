@@ -13,6 +13,9 @@ const useStyles = makeStyles((theme) => ({
     fontFamiy: 'Sora',
     fontSize: '6em',
     color: '#ffffff',
+    [theme.breakpoints.between('xs', 'sm')]: {
+      fontSize: '3em',
+    },
     [theme.breakpoints.between('sm', 'md')]: {
       fontSize: '4em',
     },
@@ -22,6 +25,9 @@ const useStyles = makeStyles((theme) => ({
     textTransform: 'uppercase',
     letterSpacing: '0.5vw',
     color: '#ffffff',
+    [theme.breakpoints.between('xs', 'sm')]: {
+      fontSize: '0.7em',
+    },
   },
 }))
 

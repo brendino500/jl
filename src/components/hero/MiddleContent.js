@@ -11,6 +11,9 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
+    [theme.breakpoints.between('xs', 'sm')]: {
+      marginTop: '-10em',
+    },
     [theme.breakpoints.between('sm', 'md')]: {
       marginTop: -50,
     },
@@ -20,6 +23,9 @@ const useStyles = makeStyles((theme) => ({
   },
   divider: {
     width: 500,
+    [theme.breakpoints.between('xs', 'sm')]: {
+      width: 300,
+    },
     [theme.breakpoints.between('sm', 'md')]: {
       width: 400,
     },
