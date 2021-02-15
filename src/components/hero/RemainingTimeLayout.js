@@ -13,6 +13,9 @@ const useStyles = makeStyles((theme) => ({
     fontFamiy: 'Sora',
     fontSize: '6em',
     color: '#ffffff',
+    [theme.breakpoints.between('sm', 'md')]: {
+      fontSize: '4em',
+    },
   },
   timeText: {
     fontFamiy: 'Sora',

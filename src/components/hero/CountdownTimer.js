@@ -23,6 +23,9 @@ const useStyles = makeStyles((theme) => ({
     marginTop: '5vh',
     fontFamily: 'Sora',
     color: '#ffffff',
+    [theme.breakpoints.between('sm', 'md')]: {
+      fontSize: '3em',
+    },
   },
 }))
 
