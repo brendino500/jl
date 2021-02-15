@@ -15,6 +15,12 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.between('sm', 'md')]: {
       height: 330,
     },
+    [theme.breakpoints.between('md', 'lg')]: {
+      height: 340,
+    },
+    [theme.breakpoints.between('lg', 'xl')]: {
+      height: 390,
+    },
   },
 }))
 

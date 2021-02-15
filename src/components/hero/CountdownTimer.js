@@ -12,6 +12,9 @@ const useStyles = makeStyles((theme) => ({
     alignItems: 'center',
     marginTop: '6vh',
   },
+  timerFormat: {
+    display: 'flex',
+  },
   timerLayoutMain: {
     display: 'flex',
   },
@@ -20,26 +23,32 @@ const useStyles = makeStyles((theme) => ({
   },
   colon: {
     fontSize: '5em',
-    marginTop: '5vh',
+    marginTop: 50,
     fontFamily: 'Sora',
     color: '#ffffff',
     [theme.breakpoints.between('xs', 'sm')]: {
-      fontSize: '0.7em',
+      fontSize: '3em',
+      marginTop: '2vh',
     },
     [theme.breakpoints.between('sm', 'md')]: {
       fontSize: '3em',
+      marginTop: 30,
+    },
+    [theme.breakpoints.between('lg', 'xl')]: {
+      fontSize: '4em',
+      marginTop: 50,
     },
   },
 }))
 
 export default function CountdownTimer() {
   const classes = useStyles()
-  const [timeRemaining, setTimeRemaining] = useState({
-    days: '00',
-    hours: '00',
-    minutes: '00',
-    seconds: '00',
-  })
+  const [timeRemaining, setTimeRemaining] = useState([
+    { value: '00', text: 'days' },
+    { value: '00', text: 'hours' },
+    { value: '00', text: 'mins' },
+    { value: '00', text: 'secs' },
+  ])
 
   useEffect(() => {
     updateCountdown()
@@ -62,12 +71,12 @@ export default function CountdownTimer() {
     let minutes = Math.floor((distanceToDate % (1000 * 60 * 60)) / (1000 * 60))
     let seconds = Math.floor((distanceToDate % (1000 * 60)) / 1000)
 
-    setTimeRemaining({
-      days: formatNumber(days),
-      hours: formatNumber(hours),
-      minutes: formatNumber(minutes),
-      seconds: formatNumber(seconds),
-    })
+    setTimeRemaining([
+      { value: formatNumber(days), text: 'days' },
+      { value: formatNumber(hours), text: 'hours' },
+      { value: formatNumber(minutes), text: 'mins' },
+      { value: formatNumber(seconds), text: 'secs' },
+    ])
   }
 
   const formatNumber = (number) => {
@@ -77,17 +86,16 @@ export default function CountdownTimer() {
       return `${Math.max(number, 0)}`
     }
   }
-
+  console.log('timeremainingState', timeRemaining)
   return (
     <div className={classes.container}>
       <div className={classes.timerLayoutMain}>
-        <RemainingTime time={timeRemaining.days} type={'Days'} />
-        <Typography className={classes.colon}>:</Typography>
-        <RemainingTime time={timeRemaining.hours} type={'Hours'} />
-        <Typography className={classes.colon}>:</Typography>
-        <RemainingTime time={timeRemaining.minutes} type={'Mins'} />
-        <Typography className={classes.colon}>:</Typography>
-        <RemainingTime time={timeRemaining.seconds} type={'Secs'} />
+        {timeRemaining.map((time) => (
+          <div className={classes.timerFormat}>
+            <RemainingTime time={time.value} type={time.text} />
+            <Typography className={classes.colon}>:</Typography>
+          </div>
+        ))}
       </div>
     </div>
   )

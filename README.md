@@ -72,6 +72,13 @@
     ![WIP3](https://i.ibb.co/WKf5pRp/WIP3.png)
     WIP End of day 4
 
+### Day 5
+
+- Finished making the site responsive.
+- Snapshot testing
+- Reaveal page
+-
+
 ## 🎈 Features
 
 - Date validation and window alert.
