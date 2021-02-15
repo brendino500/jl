@@ -8,6 +8,11 @@ const useStyles = makeStyles((theme) => ({
     alignItems: 'center',
     marginTop: '1em',
   },
+  button: {
+    [theme.breakpoints.between('sm', 'md')]: {
+      fontSize: 12,
+    },
+  },
 }))
 
 const buttonText = [

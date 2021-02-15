@@ -20,7 +20,8 @@ const useStyles = makeStyles((theme) => ({
     top: '7vh',
     [theme.breakpoints.between('sm', 'md')]: {
       marginTop: 10,
-      height: 80,
+      width: 500,
+      height: 'auto',
     },
     [theme.breakpoints.between('md', 'lg')]: {
       marginTop: 10,
