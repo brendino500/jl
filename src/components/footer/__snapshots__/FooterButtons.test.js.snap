@@ -4,180 +4,165 @@ exports[`FooterButtons matches snapshot 1`] = `
 <div
   className="makeStyles-root-1"
 >
-  <div>
-    <div>
-      <button
-        className="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-button-2"
-        disabled={false}
-        href=""
-        onBlur={[Function]}
-        onDragLeave={[Function]}
-        onFocus={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        onMouseDown={[Function]}
-        onMouseLeave={[Function]}
-        onMouseUp={[Function]}
-        onTouchEnd={[Function]}
-        onTouchMove={[Function]}
-        onTouchStart={[Function]}
-        tabIndex={0}
-        type="button"
+  <div
+    className="makeStyles-buttonFormat-3"
+  >
+    <button
+      className="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-button-2"
+      disabled={false}
+      href=""
+      onBlur={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <span
+        className="MuiButton-label"
       >
-        <span
-          className="MuiButton-label"
-        >
-          Cookie Policy
-        </span>
-      </button>
-    </div>
-    <div>
-      <p
-        className="MuiTypography-root footer-bulletpoint MuiTypography-body1"
-      >
-        •
-      </p>
-    </div>
+        Cookie Policy
+      </span>
+    </button>
+    <p
+      className="MuiTypography-root MuiTypography-body1"
+    >
+      •
+    </p>
   </div>
-  <div>
-    <div>
-      <button
-        className="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-button-2"
-        disabled={false}
-        href=""
-        onBlur={[Function]}
-        onDragLeave={[Function]}
-        onFocus={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        onMouseDown={[Function]}
-        onMouseLeave={[Function]}
-        onMouseUp={[Function]}
-        onTouchEnd={[Function]}
-        onTouchMove={[Function]}
-        onTouchStart={[Function]}
-        tabIndex={0}
-        type="button"
+  <div
+    className="makeStyles-buttonFormat-3"
+  >
+    <button
+      className="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-button-2"
+      disabled={false}
+      href=""
+      onBlur={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <span
+        className="MuiButton-label"
       >
-        <span
-          className="MuiButton-label"
-        >
-          Terms of Use
-        </span>
-      </button>
-    </div>
-    <div>
-      <p
-        className="MuiTypography-root footer-bulletpoint MuiTypography-body1"
-      >
-        •
-      </p>
-    </div>
+        Terms of Use
+      </span>
+    </button>
+    <p
+      className="MuiTypography-root MuiTypography-body1"
+    >
+      •
+    </p>
   </div>
-  <div>
-    <div>
-      <button
-        className="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-button-2"
-        disabled={false}
-        href=""
-        onBlur={[Function]}
-        onDragLeave={[Function]}
-        onFocus={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        onMouseDown={[Function]}
-        onMouseLeave={[Function]}
-        onMouseUp={[Function]}
-        onTouchEnd={[Function]}
-        onTouchMove={[Function]}
-        onTouchStart={[Function]}
-        tabIndex={0}
-        type="button"
+  <div
+    className="makeStyles-buttonFormat-3"
+  >
+    <button
+      className="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-button-2"
+      disabled={false}
+      href=""
+      onBlur={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <span
+        className="MuiButton-label"
       >
-        <span
-          className="MuiButton-label"
-        >
-          Privacy Policy
-        </span>
-      </button>
-    </div>
-    <div>
-      <p
-        className="MuiTypography-root footer-bulletpoint MuiTypography-body1"
-      >
-        •
-      </p>
-    </div>
+        Privacy Policy
+      </span>
+    </button>
+    <p
+      className="MuiTypography-root MuiTypography-body1"
+    >
+      •
+    </p>
   </div>
-  <div>
-    <div>
-      <button
-        className="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-button-2"
-        disabled={false}
-        href=""
-        onBlur={[Function]}
-        onDragLeave={[Function]}
-        onFocus={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        onMouseDown={[Function]}
-        onMouseLeave={[Function]}
-        onMouseUp={[Function]}
-        onTouchEnd={[Function]}
-        onTouchMove={[Function]}
-        onTouchStart={[Function]}
-        tabIndex={0}
-        type="button"
+  <div
+    className="makeStyles-buttonFormat-3"
+  >
+    <button
+      className="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-button-2"
+      disabled={false}
+      href=""
+      onBlur={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <span
+        className="MuiButton-label"
       >
-        <span
-          className="MuiButton-label"
-        >
-          Support
-        </span>
-      </button>
-    </div>
-    <div>
-      <p
-        className="MuiTypography-root footer-bulletpoint MuiTypography-body1"
-      >
-        •
-      </p>
-    </div>
+        Support
+      </span>
+    </button>
+    <p
+      className="MuiTypography-root MuiTypography-body1"
+    >
+      •
+    </p>
   </div>
-  <div>
-    <div>
-      <button
-        className="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-button-2"
-        disabled={false}
-        href=""
-        onBlur={[Function]}
-        onDragLeave={[Function]}
-        onFocus={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        onMouseDown={[Function]}
-        onMouseLeave={[Function]}
-        onMouseUp={[Function]}
-        onTouchEnd={[Function]}
-        onTouchMove={[Function]}
-        onTouchStart={[Function]}
-        tabIndex={0}
-        type="button"
+  <div
+    className="makeStyles-buttonFormat-3"
+  >
+    <button
+      className="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-button-2"
+      disabled={false}
+      href=""
+      onBlur={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <span
+        className="MuiButton-label"
       >
-        <span
-          className="MuiButton-label"
-        >
-          Material Usage
-        </span>
-      </button>
-    </div>
-    <div>
-      <p
-        className="MuiTypography-root footer-bulletpoint MuiTypography-body1"
-      >
-        •
-      </p>
-    </div>
+        Material Usage
+      </span>
+    </button>
   </div>
 </div>
 `;

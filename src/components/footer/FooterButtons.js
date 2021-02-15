@@ -45,7 +45,7 @@ export default function FooterButtons() {
   return (
     <div className={classes.root}>
       {buttonText.map((text, index) => (
-        <div className={classes.buttonFormat}>
+        <div className={classes.buttonFormat} key={index}>
           <Button className={classes.button} href={text.url}>
             {text.label}
           </Button>

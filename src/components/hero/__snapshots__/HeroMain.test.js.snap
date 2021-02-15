@@ -104,11 +104,6 @@ exports[`HeroMain matches snapshot 1`] = `
               secs
             </p>
           </div>
-          <p
-            className="MuiTypography-root makeStyles-colon-12 MuiTypography-body1"
-          >
-            :
-          </p>
         </div>
       </div>
     </div>
@@ -121,7 +116,7 @@ exports[`HeroMain matches snapshot 1`] = `
       className="MuiTypography-root makeStyles-revealText-6 MuiTypography-body1"
     >
       Reveal Event 
-      15th February
+      16th February
     </p>
     <a
       aria-disabled={false}

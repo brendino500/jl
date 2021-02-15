@@ -1,5 +1,4 @@
 import renderer from 'react-test-renderer'
-
 import UserButtons from './UserButtons'
 
 it('renders correctly', () => {

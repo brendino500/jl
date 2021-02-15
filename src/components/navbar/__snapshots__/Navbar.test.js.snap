@@ -1,11 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`navbar snapshot test renders correctly 1`] = `
+exports[`renders correctly 1`] = `
 <div
-  className="makeStyles-root-1"
+  className="makeStyles-grow-1"
 >
   <header
-    className="MuiPaper-root MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary makeStyles-navbar-2 mui-fixed MuiPaper-elevation4"
+    className="MuiPaper-root MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary makeStyles-navbar-6 mui-fixed MuiPaper-elevation4"
     style={
       Object {
         "boxShadow": "0px 0px 0px 0px",
@@ -17,71 +17,117 @@ exports[`navbar snapshot test renders correctly 1`] = `
     >
       <img
         alt="logo"
-        className="makeStyles-seLogo-8"
+        className="makeStyles-seLogo-10"
+        edge="start"
         src="se-logo-white.png"
       />
       <div
-        className="makeStyles-buttonSection-5"
+        className="makeStyles-grow-1"
+      />
+      <div
+        className="makeStyles-sectionDesktop-3"
       >
         <img
           alt="login background"
-          className="makeStyles-loginBackground-7"
+          className="makeStyles-loginBackground-9"
           src="user-login-background.png"
         />
-        <div
-          className="makeStyles-userButtons-6"
+        <a
+          aria-disabled={false}
+          className="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-buttonText-14"
+          href="http://square-enix-games.com"
+          onBlur={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          rel="noreferrer"
+          tabIndex={0}
+          target="_blank"
         >
-          <a
-            aria-disabled={false}
-            className="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-buttonText-9"
-            href="http://square-enix-games.com"
-            onBlur={[Function]}
-            onDragLeave={[Function]}
-            onFocus={[Function]}
-            onKeyDown={[Function]}
-            onKeyUp={[Function]}
-            onMouseDown={[Function]}
-            onMouseLeave={[Function]}
-            onMouseUp={[Function]}
-            onTouchEnd={[Function]}
-            onTouchMove={[Function]}
-            onTouchStart={[Function]}
-            rel="noreferrer"
-            tabIndex={0}
-            target="_blank"
+          <span
+            className="MuiButton-label"
           >
-            <span
-              className="MuiButton-label"
-            >
-              Join
-            </span>
-          </a>
-          <a
-            aria-disabled={false}
-            className="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-buttonText-9"
-            href="http://square-enix-games.com"
-            onBlur={[Function]}
-            onDragLeave={[Function]}
-            onFocus={[Function]}
-            onKeyDown={[Function]}
-            onKeyUp={[Function]}
-            onMouseDown={[Function]}
-            onMouseLeave={[Function]}
-            onMouseUp={[Function]}
-            onTouchEnd={[Function]}
-            onTouchMove={[Function]}
-            onTouchStart={[Function]}
-            rel="noreferrer"
-            tabIndex={0}
-            target="_blank"
+            Join
+          </span>
+        </a>
+        <a
+          aria-disabled={false}
+          className="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-buttonText-14"
+          href="http://square-enix-games.com"
+          onBlur={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          rel="noreferrer"
+          tabIndex={0}
+          target="_blank"
+        >
+          <span
+            className="MuiButton-label"
           >
-            <span
-              className="MuiButton-label"
+            Login
+          </span>
+        </a>
+      </div>
+      <div
+        className="makeStyles-sectionMobile-4"
+      >
+        <button
+          className="MuiButtonBase-root MuiIconButton-root"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <svg
+              className="makeStyles-burgerMenu-11"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              Login
-            </span>
-          </a>
-        </div>
+              <path
+                d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z"
+              />
+            </svg>
+          </span>
+        </button>
       </div>
     </div>
   </header>

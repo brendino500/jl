@@ -7,7 +7,7 @@ import {
   IconButton,
   MenuItem,
   Menu,
-  Typography,
+  // Typography,
 } from '@material-ui/core/'
 import { BiMenu } from 'react-icons/bi'
 

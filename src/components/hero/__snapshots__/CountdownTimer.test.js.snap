@@ -93,11 +93,6 @@ exports[`CountdownTimer matches snapshot 1`] = `
           secs
         </p>
       </div>
-      <p
-        className="MuiTypography-root makeStyles-colon-5 MuiTypography-body1"
-      >
-        :
-      </p>
     </div>
   </div>
 </div>
