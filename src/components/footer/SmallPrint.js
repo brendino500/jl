@@ -18,6 +18,9 @@ const useStyles = makeStyles((theme) => ({
     fontSize: '0.7em',
     lineHeight: '2em',
     textAlign: 'center',
+    [theme.breakpoints.between('sm', 'md')]: {
+      fontSize: '0.5em',
+    },
   },
 }))
 
