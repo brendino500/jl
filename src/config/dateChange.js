@@ -8,7 +8,7 @@ export const releaseDate = {
   month: 2,
   year: 2021,
   hour: 18,
-  minute: 8,
+  minute: 30,
 }
 
 //!! NO MESSING AROUND THE REST OF THE CODE. I SEE YOU... 🙅‍♂️🙅‍♂️🙅‍♂️🙅‍♂️🙅‍♂️
