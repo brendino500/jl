@@ -1,33 +1,10 @@
 import { useState, useEffect } from 'react'
-import { makeStyles } from '@material-ui/core/styles'
 import { IconButton } from '@material-ui/core'
 import Confetti from 'react-dom-confetti'
 import { SiPlaystation, SiXbox } from 'react-icons/si'
 import Fade from 'react-reveal/Fade'
 
-const useStyles = makeStyles((theme) => ({
-  iconLayout: {
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  text: {
-    fontFamily: 'Sora',
-    color: '#ffffff',
-    textTransform: 'uppercase',
-    letterSpacing: 5,
-    marginTop: '-3em',
-    textAlign: 'center',
-  },
-  confetti: {
-    marginLeft: '14em',
-  },
-  gameIcon: {
-    color: '#EBE9EA',
-    margin: '0 1.5em',
-    fontSize: '2em',
-  },
-}))
+import useStyles from '../../styles/heroStyles/RevealStyles'
 
 const config = {
   angle: '90',
@@ -51,9 +28,11 @@ const xboxLink =
 export default function Reveal() {
   const classes = useStyles()
   const [confettiActive, setConfettiActive] = useState(false)
+
   useEffect(() => {
     setConfettiActive(true)
   }, [])
+
   return (
     <div>
       <Confetti

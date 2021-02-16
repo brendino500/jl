@@ -27,7 +27,7 @@ exports[`ButtonsMain matches snapshot 1`] = `
     >
       <img
         alt="add to calendar"
-        className="makeStyles-button-2"
+        className="makeStyles-button-2 hvr-grow"
         src="add-to-calendar-button.png"
       />
     </span>
@@ -56,7 +56,7 @@ exports[`ButtonsMain matches snapshot 1`] = `
     >
       <img
         alt="newsletter sign up"
-        className="makeStyles-button-2"
+        className="makeStyles-button-2 hvr-grow"
         src="newsletter-button.png"
       />
     </span>
@@ -69,7 +69,7 @@ exports[`ButtonsMain matches snapshot 1`] = `
     >
       <a
         aria-disabled={false}
-        className="MuiButtonBase-root MuiIconButton-root makeStyles-icon-5"
+        className="MuiButtonBase-root MuiIconButton-root makeStyles-icon-5 hvr-underline-from-center"
         href="https://www.facebook.com/SquareEnix"
         onBlur={[Function]}
         onDragLeave={[Function]}
@@ -111,7 +111,7 @@ exports[`ButtonsMain matches snapshot 1`] = `
       </a>
       <a
         aria-disabled={false}
-        className="MuiButtonBase-root MuiIconButton-root makeStyles-icon-5"
+        className="MuiButtonBase-root MuiIconButton-root makeStyles-icon-5 hvr-underline-from-center"
         href="https://twitter.com/SquareEnix"
         onBlur={[Function]}
         onDragLeave={[Function]}
@@ -153,7 +153,7 @@ exports[`ButtonsMain matches snapshot 1`] = `
       </a>
       <a
         aria-disabled={false}
-        className="MuiButtonBase-root MuiIconButton-root makeStyles-icon-5"
+        className="MuiButtonBase-root MuiIconButton-root makeStyles-icon-5 hvr-underline-from-center"
         href="https://square-enix-games.com/"
         onBlur={[Function]}
         onDragLeave={[Function]}
@@ -195,7 +195,7 @@ exports[`ButtonsMain matches snapshot 1`] = `
       </a>
       <a
         aria-disabled={false}
-        className="MuiButtonBase-root MuiIconButton-root makeStyles-icon-5"
+        className="MuiButtonBase-root MuiIconButton-root makeStyles-icon-5 hvr-underline-from-center"
         href="https://www.youtube.com/user/UKSquareEnix"
         onBlur={[Function]}
         onDragLeave={[Function]}
@@ -237,7 +237,7 @@ exports[`ButtonsMain matches snapshot 1`] = `
       </a>
       <a
         aria-disabled={false}
-        className="MuiButtonBase-root MuiIconButton-root makeStyles-icon-5"
+        className="MuiButtonBase-root MuiIconButton-root makeStyles-icon-5 hvr-underline-from-center"
         href="https://www.instagram.com/squareenix/"
         onBlur={[Function]}
         onDragLeave={[Function]}

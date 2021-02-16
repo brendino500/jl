@@ -1,27 +1,10 @@
 import { Button } from '@material-ui/core'
-import { makeStyles } from '@material-ui/core/styles'
 
 import addToCalendarButton from '../../assets/add-to-calendar-button.png'
 import newsLetterButton from '../../assets/newsletter-button.png'
 import SocialIconsLayout from './SocialIconsLayout'
 import { UTC, UTCFinish } from '../../config/dateChange'
-
-const useStyles = makeStyles((theme) => ({
-  buttonSection: {
-    position: 'absolute',
-    display: 'flex',
-    flexDirection: 'column',
-    marginTop: '1vh',
-    bottom: 10,
-    alignItems: 'center',
-  },
-  button: {
-    width: 210,
-  },
-  socialIconGrid: {
-    justifyContent: 'space between',
-  },
-}))
+import useStyles from '../../styles/heroStyles/ButtonsMainStyles'
 
 export default function ButtonsMain() {
   const classes = useStyles()

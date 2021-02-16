@@ -1,12 +1,6 @@
-import { makeStyles } from '@material-ui/core/styles'
 import { IconButton } from '@material-ui/core'
 
-const useStyles = makeStyles((theme) => ({
-  icon: {
-    color: '#EBE9EA',
-    fontSize: '1.1em',
-  },
-}))
+import useStyles from '../../styles/heroStyles/SocialIconIndividualStyles'
 
 export default function SocialIconIndividual({ icon, url }) {
   const classes = useStyles()

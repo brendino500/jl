@@ -2,7 +2,7 @@
 
 exports[`SocialIconIndividual matches snapshot 1`] = `
 <button
-  className="MuiButtonBase-root MuiIconButton-root makeStyles-icon-1"
+  className="MuiButtonBase-root MuiIconButton-root makeStyles-icon-1 hvr-underline-from-center"
   disabled={false}
   onBlur={[Function]}
   onDragLeave={[Function]}

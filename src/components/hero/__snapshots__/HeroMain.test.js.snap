@@ -6,147 +6,161 @@ exports[`HeroMain matches snapshot 1`] = `
 >
   <img
     alt="Tomb Raider text"
-    className="makeStyles-tombRaiderImage-2"
+    className="react-reveal makeStyles-tombRaiderImage-2"
     src="hero-text.png"
+    style={
+      Object {
+        "opacity": undefined,
+      }
+    }
   />
   <div
-    className="makeStyles-container-3"
+    className="react-reveal"
+    style={
+      Object {
+        "opacity": undefined,
+      }
+    }
   >
     <div
-      className="makeStyles-container-8"
+      className="makeStyles-container-3"
     >
       <div
-        className="makeStyles-timerLayoutMain-10"
+        className="makeStyles-container-8"
       >
         <div
-          className="makeStyles-timerFormat-9"
+          className="makeStyles-timerLayoutMain-10"
         >
           <div
-            className="makeStyles-timeTextLayout-13"
+            className="makeStyles-timerFormat-9"
           >
-            <p
-              className="MuiTypography-root makeStyles-timeNumbers-14 MuiTypography-body1"
+            <div
+              className="makeStyles-timeTextLayout-13"
             >
-              00
-            </p>
+              <p
+                className="MuiTypography-root makeStyles-timeNumbers-14 MuiTypography-body1"
+              >
+                00
+              </p>
+              <p
+                className="MuiTypography-root makeStyles-timeText-15 MuiTypography-body1"
+              >
+                days
+              </p>
+            </div>
             <p
-              className="MuiTypography-root makeStyles-timeText-15 MuiTypography-body1"
+              className="MuiTypography-root makeStyles-colon-12 MuiTypography-body1"
             >
-              days
+              :
             </p>
           </div>
-          <p
-            className="MuiTypography-root makeStyles-colon-12 MuiTypography-body1"
-          >
-            :
-          </p>
-        </div>
-        <div
-          className="makeStyles-timerFormat-9"
-        >
           <div
-            className="makeStyles-timeTextLayout-13"
+            className="makeStyles-timerFormat-9"
           >
-            <p
-              className="MuiTypography-root makeStyles-timeNumbers-14 MuiTypography-body1"
+            <div
+              className="makeStyles-timeTextLayout-13"
             >
-              00
-            </p>
+              <p
+                className="MuiTypography-root makeStyles-timeNumbers-14 MuiTypography-body1"
+              >
+                00
+              </p>
+              <p
+                className="MuiTypography-root makeStyles-timeText-15 MuiTypography-body1"
+              >
+                hours
+              </p>
+            </div>
             <p
-              className="MuiTypography-root makeStyles-timeText-15 MuiTypography-body1"
+              className="MuiTypography-root makeStyles-colon-12 MuiTypography-body1"
             >
-              hours
+              :
             </p>
           </div>
-          <p
-            className="MuiTypography-root makeStyles-colon-12 MuiTypography-body1"
-          >
-            :
-          </p>
-        </div>
-        <div
-          className="makeStyles-timerFormat-9"
-        >
           <div
-            className="makeStyles-timeTextLayout-13"
+            className="makeStyles-timerFormat-9"
           >
-            <p
-              className="MuiTypography-root makeStyles-timeNumbers-14 MuiTypography-body1"
+            <div
+              className="makeStyles-timeTextLayout-13"
             >
-              00
-            </p>
+              <p
+                className="MuiTypography-root makeStyles-timeNumbers-14 MuiTypography-body1"
+              >
+                00
+              </p>
+              <p
+                className="MuiTypography-root makeStyles-timeText-15 MuiTypography-body1"
+              >
+                mins
+              </p>
+            </div>
             <p
-              className="MuiTypography-root makeStyles-timeText-15 MuiTypography-body1"
+              className="MuiTypography-root makeStyles-colon-12 MuiTypography-body1"
             >
-              mins
+              :
             </p>
           </div>
-          <p
-            className="MuiTypography-root makeStyles-colon-12 MuiTypography-body1"
-          >
-            :
-          </p>
-        </div>
-        <div
-          className="makeStyles-timerFormat-9"
-        >
           <div
-            className="makeStyles-timeTextLayout-13"
+            className="makeStyles-timerFormat-9"
           >
-            <p
-              className="MuiTypography-root makeStyles-timeNumbers-14 MuiTypography-body1"
+            <div
+              className="makeStyles-timeTextLayout-13"
             >
-              00
-            </p>
-            <p
-              className="MuiTypography-root makeStyles-timeText-15 MuiTypography-body1"
-            >
-              secs
-            </p>
+              <p
+                className="MuiTypography-root makeStyles-timeNumbers-14 MuiTypography-body1"
+              >
+                00
+              </p>
+              <p
+                className="MuiTypography-root makeStyles-timeText-15 MuiTypography-body1"
+              >
+                secs
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <img
-      alt="divider"
-      className="makeStyles-divider-5"
-      src="divider.png"
-    />
-    <p
-      className="MuiTypography-root makeStyles-revealText-6 MuiTypography-body1"
-    >
-      Reveal Event 
-      16th February
-    </p>
-    <a
-      aria-disabled={false}
-      className="MuiButtonBase-root MuiButton-root MuiButton-text"
-      href="https://square-enix-games.com/"
-      onBlur={[Function]}
-      onDragLeave={[Function]}
-      onFocus={[Function]}
-      onKeyDown={[Function]}
-      onKeyUp={[Function]}
-      onMouseDown={[Function]}
-      onMouseLeave={[Function]}
-      onMouseUp={[Function]}
-      onTouchEnd={[Function]}
-      onTouchMove={[Function]}
-      onTouchStart={[Function]}
-      rel="noreferrer"
-      tabIndex={0}
-      target="_blank"
-    >
-      <span
-        className="MuiButton-label"
+      <img
+        alt="divider"
+        className="makeStyles-divider-5"
+        src="divider.png"
+      />
+      <p
+        className="MuiTypography-root makeStyles-revealText-6 MuiTypography-body1"
       >
-        <img
-          alt="watch teaser button"
-          className="makeStyles-teaserButton-7"
-          src="watch-teaser-button.png"
-        />
-      </span>
-    </a>
+        Reveal Event 
+        16th February
+      </p>
+      <a
+        aria-disabled={false}
+        className="MuiButtonBase-root MuiButton-root MuiButton-text"
+        href="https://square-enix-games.com/"
+        onBlur={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        rel="noreferrer"
+        tabIndex={0}
+        target="_blank"
+      >
+        <span
+          className="MuiButton-label"
+        >
+          <img
+            alt="watch teaser button"
+            className="makeStyles-teaserButton-7 hvr-grow"
+            src="watch-teaser-button.png"
+          />
+        </span>
+      </a>
+    </div>
   </div>
   <div
     className="makeStyles-buttonSection-17"
@@ -174,7 +188,7 @@ exports[`HeroMain matches snapshot 1`] = `
       >
         <img
           alt="add to calendar"
-          className="makeStyles-button-18"
+          className="makeStyles-button-18 hvr-grow"
           src="add-to-calendar-button.png"
         />
       </span>
@@ -203,7 +217,7 @@ exports[`HeroMain matches snapshot 1`] = `
       >
         <img
           alt="newsletter sign up"
-          className="makeStyles-button-18"
+          className="makeStyles-button-18 hvr-grow"
           src="newsletter-button.png"
         />
       </span>
@@ -216,7 +230,7 @@ exports[`HeroMain matches snapshot 1`] = `
       >
         <a
           aria-disabled={false}
-          className="MuiButtonBase-root MuiIconButton-root makeStyles-icon-21"
+          className="MuiButtonBase-root MuiIconButton-root makeStyles-icon-21 hvr-underline-from-center"
           href="https://www.facebook.com/SquareEnix"
           onBlur={[Function]}
           onDragLeave={[Function]}
@@ -258,7 +272,7 @@ exports[`HeroMain matches snapshot 1`] = `
         </a>
         <a
           aria-disabled={false}
-          className="MuiButtonBase-root MuiIconButton-root makeStyles-icon-21"
+          className="MuiButtonBase-root MuiIconButton-root makeStyles-icon-21 hvr-underline-from-center"
           href="https://twitter.com/SquareEnix"
           onBlur={[Function]}
           onDragLeave={[Function]}
@@ -300,7 +314,7 @@ exports[`HeroMain matches snapshot 1`] = `
         </a>
         <a
           aria-disabled={false}
-          className="MuiButtonBase-root MuiIconButton-root makeStyles-icon-21"
+          className="MuiButtonBase-root MuiIconButton-root makeStyles-icon-21 hvr-underline-from-center"
           href="https://square-enix-games.com/"
           onBlur={[Function]}
           onDragLeave={[Function]}
@@ -342,7 +356,7 @@ exports[`HeroMain matches snapshot 1`] = `
         </a>
         <a
           aria-disabled={false}
-          className="MuiButtonBase-root MuiIconButton-root makeStyles-icon-21"
+          className="MuiButtonBase-root MuiIconButton-root makeStyles-icon-21 hvr-underline-from-center"
           href="https://www.youtube.com/user/UKSquareEnix"
           onBlur={[Function]}
           onDragLeave={[Function]}
@@ -384,7 +398,7 @@ exports[`HeroMain matches snapshot 1`] = `
         </a>
         <a
           aria-disabled={false}
-          className="MuiButtonBase-root MuiIconButton-root makeStyles-icon-21"
+          className="MuiButtonBase-root MuiIconButton-root makeStyles-icon-21 hvr-underline-from-center"
           href="https://www.instagram.com/squareenix/"
           onBlur={[Function]}
           onDragLeave={[Function]}

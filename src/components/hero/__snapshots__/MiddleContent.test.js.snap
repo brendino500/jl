@@ -134,7 +134,7 @@ exports[`MiddleContent matches snapshot 1`] = `
     >
       <img
         alt="watch teaser button"
-        className="makeStyles-teaserButton-5"
+        className="makeStyles-teaserButton-5 hvr-grow"
         src="watch-teaser-button.png"
       />
     </span>

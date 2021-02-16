@@ -6,7 +6,7 @@ exports[`SocialIconsLayout matches snapshot 1`] = `
 >
   <a
     aria-disabled={false}
-    className="MuiButtonBase-root MuiIconButton-root makeStyles-icon-2"
+    className="MuiButtonBase-root MuiIconButton-root makeStyles-icon-2 hvr-underline-from-center"
     href="https://www.facebook.com/SquareEnix"
     onBlur={[Function]}
     onDragLeave={[Function]}
@@ -48,7 +48,7 @@ exports[`SocialIconsLayout matches snapshot 1`] = `
   </a>
   <a
     aria-disabled={false}
-    className="MuiButtonBase-root MuiIconButton-root makeStyles-icon-2"
+    className="MuiButtonBase-root MuiIconButton-root makeStyles-icon-2 hvr-underline-from-center"
     href="https://twitter.com/SquareEnix"
     onBlur={[Function]}
     onDragLeave={[Function]}
@@ -90,7 +90,7 @@ exports[`SocialIconsLayout matches snapshot 1`] = `
   </a>
   <a
     aria-disabled={false}
-    className="MuiButtonBase-root MuiIconButton-root makeStyles-icon-2"
+    className="MuiButtonBase-root MuiIconButton-root makeStyles-icon-2 hvr-underline-from-center"
     href="https://square-enix-games.com/"
     onBlur={[Function]}
     onDragLeave={[Function]}
@@ -132,7 +132,7 @@ exports[`SocialIconsLayout matches snapshot 1`] = `
   </a>
   <a
     aria-disabled={false}
-    className="MuiButtonBase-root MuiIconButton-root makeStyles-icon-2"
+    className="MuiButtonBase-root MuiIconButton-root makeStyles-icon-2 hvr-underline-from-center"
     href="https://www.youtube.com/user/UKSquareEnix"
     onBlur={[Function]}
     onDragLeave={[Function]}
@@ -174,7 +174,7 @@ exports[`SocialIconsLayout matches snapshot 1`] = `
   </a>
   <a
     aria-disabled={false}
-    className="MuiButtonBase-root MuiIconButton-root makeStyles-icon-2"
+    className="MuiButtonBase-root MuiIconButton-root makeStyles-icon-2 hvr-underline-from-center"
     href="https://www.instagram.com/squareenix/"
     onBlur={[Function]}
     onDragLeave={[Function]}
