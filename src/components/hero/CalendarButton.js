@@ -12,8 +12,9 @@ export default function CalendarButton() {
     'https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest',
   ]
   const SCOPES = 'https://www.googleapis.com/auth/calendar'
-  const CLIENT_ID = process.env.REACT_APP_CLIENT_ID_KEY
-  const API_KEY = process.env.REACT_APP_GOOGLE_API_KEY
+  const CLIENT_ID =
+    '725151615208-7vfs07dj8mt8j9gickg29l89mu9vbf0a.apps.googleusercontent.com'
+  const API_KEY = 'AIzaSyA0zAu2REpL3tW9Iz1mlyQE5BYcZmsOXx4'
 
   const handleAddToCalendar = () => {
     gapi.load('client:auth2', () => {
