@@ -57,7 +57,6 @@ export default function CountdownTimer() {
     }
   }
 
-  console.log('timeremainingState', timeRemaining)
   return (
     <div className={classes.container}>
       <div className={classes.timerLayoutMain}>
