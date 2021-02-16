@@ -29,6 +29,8 @@
 
 ## 📈 Planning
 
+[LINK TO TRELLO BOARD](https://trello.com/b/nXTVo3wm/countdown)
+
 ### Day 1
 
 - Reading the brief and realising I lacked knowledge in particular sections, **I spent the evening researching** the following:
