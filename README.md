@@ -7,9 +7,11 @@
 - **‼️ TO CHANGE THE DATE GO TO `src/config/dateChange.js` AND ADD THE END DATE THERE ‼️**
   <br />
   <br />
-- The aim of this project was to **build a countdown timer** to an event which was happening in the future and **style a webpage to a wireframe provided**.
+
 - **Refresh when countdown to 0 has been implemented as well as reveal functionality.**
 - Site is fully responsive.
+
+- The aim of this project was to **build a countdown timer** to an event which was happening in the future and **style a webpage to a wireframe provided**.
 
 ## 💾 Technologies, Tools & Libraries
 
