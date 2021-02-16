@@ -8,6 +8,8 @@
   <br />
   <br />
 - The aim of this project was to **build a countdown timer** to an event which was happening in the future and **style a webpage to a wireframe provided**.
+- **Refresh when countdown to 0 has been implemented as well as reveal functionality.**
+- Site is fully responsive.
 
 ## 💾 Technologies, Tools & Libraries
 
@@ -82,6 +84,8 @@
 - Date validation and window alert.
 - Date only being hard coded in once place.
 - Add to Google Calendar functionality.
+- Reveal page implemented.
+- Fully responsive site.
 
 ## 🤓 Notes & Resources
 
