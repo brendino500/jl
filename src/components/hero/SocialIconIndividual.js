@@ -16,7 +16,7 @@ export default function SocialIconIndividual({ icon, url }) {
         href={url}
         target="_blank"
         rel="noreferrer"
-        className={classes.icon}
+        className={`${classes.icon} hvr-underline-from-center`}
       >
         {icon}
       </IconButton>

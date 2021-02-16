@@ -66,7 +66,7 @@ export default function MiddleContent() {
         <img
           src={teaserButton}
           alt="watch teaser button"
-          className={classes.teaserButton}
+          className={`${classes.teaserButton} hvr-grow`}
         />
       </Button>
     </div>

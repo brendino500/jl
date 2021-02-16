@@ -1,4 +1,5 @@
 import { makeStyles } from '@material-ui/core/styles'
+import Fade from 'react-reveal/Fade'
 
 import Reveal from './Reveal'
 import MiddleContent from './MiddleContent'
@@ -42,16 +43,20 @@ export default function HeroMain() {
   const classes = useStyles()
   return (
     <div className={classes.root}>
-      <img
-        src={heroText}
-        alt="Tomb Raider text"
-        className={classes.tombRaiderImage}
-      />
-      {hasDateHappened() ? (
-        <Reveal className={classes.middleSection} />
-      ) : (
-        <MiddleContent className={classes.middleSection} />
-      )}
+      <Fade big>
+        <img
+          src={heroText}
+          alt="Tomb Raider text"
+          className={classes.tombRaiderImage}
+        />
+
+        {hasDateHappened() ? (
+          <Reveal className={classes.middleSection} />
+        ) : (
+          <MiddleContent className={classes.middleSection} />
+        )}
+      </Fade>
+
       <ButtonsMain className={classes.buttonSection} />
     </div>
   )

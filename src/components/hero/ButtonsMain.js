@@ -85,7 +85,7 @@ export default function ButtonsMain() {
         <img
           src={addToCalendarButton}
           alt="add to calendar"
-          className={classes.button}
+          className={`${classes.button} hvr-grow`}
         />
       </Button>
 
@@ -97,7 +97,7 @@ export default function ButtonsMain() {
         <img
           src={newsLetterButton}
           alt="newsletter sign up"
-          className={classes.button}
+          className={`${classes.button} hvr-grow`}
         />
       </Button>
       <div className={classes.socialIconGrid}>
