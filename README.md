@@ -3,7 +3,7 @@
 ## ⚡️ Overview
 
 - You can clone my project and run: `npm install` followed by `npm start`.
-- Open [https://localhost:3001](https://localhost:3001) in the browser.
+- Open [https://localhost:3000](https://localhost:3000) in the browser. **NOTE: Google Calendar API will ONLY allow `localhost:3000` or `localhost:3001`**.
 - **‼️ TO CHANGE THE DATE GO TO `src/config/dateChange.js` AND ADD THE END DATE THERE ‼️**
   <br />
   <br />
@@ -22,8 +22,6 @@
 - Hover.css
 - React Reveal
 - React Dom Confetti
-
-## 🕰 Timeframe
 
 ## 📈 Planning
 
@@ -46,8 +44,6 @@
 - Started a few snapshot tests but stopped as the the more I read on it, the more I realised that I was using it not to it's full capabilities. I stopped and decided to **concentrate on the functional MVP**.
 - **Logic to the countdown timer** and links to external sites complete.
 - By the end of the day all the information on the page was rendered in the correct layout.
-  ![WIP](https://i.ibb.co/Xz5th5H/WIP1.png)
-  WIP End of day 2
 
 ### Day 3
 
@@ -59,8 +55,6 @@
 - The rest of the day was to make sure that since the **date would be only changed in one place** (in the `config/dateChange.js`) which will then **update in other components and link up with the Google Calendar functionality.**
 - For **easier testing for the countdown** I had added an `hour` and `minute` parameter so **getting the countdown timer to 0** was quicker and easier to then figure out how to force a refresh.
 - **At the end of the day I had reached my goal of achieving a functional MVP which involed all the requirements of the task.**
-- ![WIP2](https://i.ibb.co/4KZwMqS/WIP2.png)
-  WIP End of day 3
 
 ### Day 4
 
@@ -70,10 +64,6 @@
     <br />
     <img src="https://i.ibb.co/4ZYc2Dg/ratio-wireframes.png" alt="wireframe ratios" height="500px" />
   - Being this stict with the layout took much longer than expected which meant that I had to push a few tasks to the next day.
-    <br />
-    <br />
-    ![WIP3](https://i.ibb.co/WKf5pRp/WIP3.png)
-    WIP End of day 4
 
 ### Day 5
 
@@ -96,12 +86,17 @@
 ## 🤓 Notes & Resources
 
 [Google Calendar API](https://developers.google.com/calendar)
-<br />
 
 [Google Event API](https://developers.google.com/calendar/v3/reference/events)
-<br />
 
 [Moment.js](https://momentjs.com/)
-<br />
 
 [Material UI](https://material-ui.com/)
+
+[React Reveal](https://www.react-reveal.com/)
+
+[Moment.js](https://momentjs.com/)
+
+[React DOM Confetti](https://daniel-lundin.github.io/react-dom-confetti/)
+
+[Hover.css](https://ianlunn.github.io/Hover/)
